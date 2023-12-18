@@ -1,0 +1,392 @@
+﻿
+
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+  }
+
+
+ 
+<!-- Chart.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.7.0/chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+<!-- FontAwesome --><script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+<style>
+    .custom-card {
+        width: 100%;
+        margin: 10px;
+        padding: 10px;
+        background-color: #fff;
+        border: 1px solid #e0e0e0;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.2s;
+    }
+
+    .map_section {
+        height: 300px; /* Adjust the height as needed */
+    }
+
+    .custom-card:hover {
+        transform: scale(1.02);
+    }
+
+    .custom-card .card-content {
+        padding: 10px;
+    }
+
+    .custom-card canvas {
+        width: 100%;
+    }
+
+    .custom-card .chart-icon {
+        font-size: 30px;
+        margin-bottom: 5px; /* Add margin-bottom to create space between icon and text */
+    }
+
+    .custom-card h4, .custom-card h5 {
+        margin: 0;
+    }
+
+    .graph {
+        margin-top: 30px;
+    }
+
+    .card-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .custom-card .chart-icon {
+        font-size: 30px;
+        margin-bottom: 0; /* Adjust this value to decrease or increase the space */
+    }
+</style>
+
+
+
+<div class="row column3">
+    <div class="col-md-3">
+        <div class="custom-card d-flex justify-content-between align-items-center">
+            <div class="icon-box">
+                <i class="fas fa-users chart-icon" style="font-size: 2rem; color: #ADC4CE"></i>
+            </div>
+            <div class="card-content text-white text-center">
+                <h4>Customers</h4>
+                <h5>@ViewBag.numberOfUsers</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="custom-card d-flex justify-content-between align-items-center">
+            <div class="icon-box">
+                <i class="fas fa-shopping-cart chart-icon" style="font-size: 2rem; color:#D8C4B6"></i>
+            </div>
+            <div class="card-content text-white text-center">
+                <h4>Products</h4>
+                <h5>@ViewBag.numbaerOfProducts</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="custom-card d-flex justify-content-between align-items-center">
+            <div class="icon-box">
+                <i class="fas fa-chart-line chart-icon" style="font-size: 2rem; color: #2b5797;"></i>
+            </div>
+            <div class="card-content text-white text-center">
+                <h4>Sales</h4>
+                <h5>@ViewBag.sales</h5>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="custom-card d-flex justify-content-between align-items-center;">
+            <div class="icon-box">
+                <i class="fas fa-shopping-cart chart-icon" style="font-size: 2rem; color:  #00aba9"></i>
+            </div>
+            <div class="card-content text-white text-center">
+                <h4>Total Orders</h4>
+                <h5>@ViewBag.numberOfOredrs</h5>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="midde_cont">
+    <div class="container-fluid">
+        <div class="row column_title">
+            <div style="margin-bottom: 50px"></div>
+        </div>
+        <!-- row -->
+        <div class="row column1">
+            <div class="col-lg-6">
+                <div class="white_shd full margin_bottom_30">
+                    <div class="full graph_head">
+                        <div class="heading1 margin_0">
+                            <h2>Orders</h2>
+                        </div>
+                    </div>
+                    <div class="map_section padding_infor_info">
+                        <canvas id="orderStatusChart" width="20" height="30"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="white_shd full margin_bottom_30">
+                    <div class="full graph_head">
+                        <div class="heading1 margin_0">
+                            <h2>Price Distribution</h2>
+                        </div>
+                    </div>
+                    <div class="map_section padding_infor_info">
+                        <canvas id="priceDistributionChart" height="272"></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="white_shd full margin_bottom_30">
+                    <div class="full graph_head">
+                        <div class="heading1 margin_0">
+                            <h2>Order VS time</h2>
+                        </div>
+                    </div>
+                    <div class="map_section padding_infor_info">
+                        <canvas id="ordersTimeChart" width="300" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="col-lg-6">
+                <div class="white_shd full margin_bottom_30">
+                    <div class="full graph_head">
+                        <div class="heading1 margin_0">
+                            <h2>Top Selling Products</h2>
+                        </div>
+                    </div>
+                    <div class="map_section padding_infor_info">
+                        <canvas id="topProductsChart" width="300" height="200"></canvas>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end row -->
+    </div>
+</div>
+
+
+
+
+@*order stauts *@
+<script>
+    var ctx = document.getElementById("orderStatusChart").getContext("2d");
+
+    var chartData = {
+        labels: ["Delivered", "Pending", "Arrived", "Shipped"],
+        datasets: [{
+            data: [
+    @ViewBag.deliveredOrders,
+    @ViewBag.pendingOrders,
+    @ViewBag.arrivedOrders,
+    @ViewBag.shippedOrders
+                ],
+            backgroundColor: ["#113946",
+                "#BCA37F",
+                "#EAD7BB",
+                "#ECE3CE"]
+        }]
+    };
+
+    var chartOptions = {
+        responsive: true,
+        title: {
+            display: true,
+            text: "Order Status"
+        }
+    };
+
+    var myChart = new Chart(ctx, {
+        type: "doughnut",
+        data: chartData,
+        options: chartOptions
+    });
+</script>
+
+
+
+@*price distribution *@
+<script>
+    var priceDistributionCanvas = document.getElementById("priceDistributionChart").getContext("2d");
+
+    var binBoundaries = JSON.parse('@Html.Raw(ViewBag.BinBoundaries)');
+    var binCounts = JSON.parse('@Html.Raw(ViewBag.BinCounts)');
+
+    var priceDistributionData = {
+        labels: binBoundaries,
+        datasets: [{
+            label: 'Frequency',
+            data: binCounts,
+            backgroundColor: '#E6DDC4',
+            borderColor: '#181D31',
+            borderWidth: 1
+        }]
+    };
+
+    var priceDistributionOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            x: {
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: 'Price'
+                }
+            },
+            y: {
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: 'Frequency'
+                }
+            }
+        }
+    };
+
+    var priceDistributionChart = new Chart(priceDistributionCanvas, {
+        type: "bar",
+        data: priceDistributionData,
+        options: priceDistributionOptions
+    });
+</script>
+
+
+@*male / female*@
+<script>
+    var genderCanvas = document.getElementById("genderChart").getContext("2d");
+
+    var numberOfFemale = @ViewBag.numberOfFemale;
+    var numberOfMale = @ViewBag.numberOfMale;
+
+    var genderData = {
+        labels: ["Female", "Male"],
+        datasets: [{
+            data: [numberOfFemale, numberOfMale],
+            backgroundColor: ["#e83e8c", "#007bff"]
+        }]
+    };
+
+    var genderOptions = {
+        responsive: true,
+        title: {
+            display: true,
+            text: "Gender Distribution"
+        }
+    };
+
+    var genderChart = new Chart(genderCanvas, {
+        type: "doughnut",
+        data: genderData,
+        options: genderOptions
+    });
+
+</script>
+
+
+
+
+
+ @*order vs time*@
+ <script>
+    console.log(@Html.Raw(Json.Serialize(ViewBag.TimeLabels)));
+    console.log(@Html.Raw(Json.Serialize(ViewBag.OrderCounts)));
+ var timeCanvas = document.getElementById("ordersTimeChart").getContext("2d");
+
+    var timeData = {
+        labels: @Html.Raw(Json.Serialize(ViewBag.TimeLabels)),
+        datasets: [{
+            label: 'Number of Orders',
+            data: @Html.Raw(Json.Serialize(ViewBag.OrderCounts)),
+            backgroundColor: '#116A7B',
+            borderColor: '#CDC2AE',
+            borderWidth: 1
+        }]
+    };
+
+    var timeOptions = {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        },
+        responsive: true,
+        maintainAspectRatio: false
+    };
+
+    var timeChart = new Chart(timeCanvas, {
+        type: "line",
+        data: timeData,
+        options: timeOptions
+    });
+</script>
+
+
+
+
+
+
+<!-- Add this script section to the end of your view -->
+<script>
+    var topProductsCanvas = document.getElementById("topProductsChart").getContext("2d");
+
+    var topProductsData = {
+        labels: @Html.Raw(ViewBag.TopProductNames),
+        datasets: [{
+            label: 'Quantity Sold',
+            data: @Html.Raw(ViewBag.TopProductQuantities),
+            backgroundColor: '#B7C4CF',
+            borderColor: '#8294C4',
+            borderWidth: 1
+        }]
+    };
+
+    var topProductsOptions = {
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+            y: {
+                beginAtZero: true,
+                title: {
+                    display: true,
+                    text: 'Quantity Sold'
+                }
+            },
+            x: {
+                title: {
+                    display: true,
+                    text: 'Top Selling Products'
+                }
+            }
+        }
+    };
+
+    var topProductsChart = new Chart(topProductsCanvas, {
+        type: "bar",
+        data: topProductsData,
+        options: topProductsOptions
+    });
+</script>
+
+
+
+
+

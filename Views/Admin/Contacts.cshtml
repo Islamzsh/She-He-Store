@@ -1,0 +1,43 @@
+﻿@model IEnumerable<Contactu>
+@{
+    ViewData["Title"] = "Contacts";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<head>
+    <style>
+    
+
+        table thead tr th {
+            font-weight: 700;
+            color: black;
+        }
+
+        tr td {
+            color: black;
+        }
+    </style>
+</head>
+<h1 style="margin-bottom:15px">Contacts</h1>
+
+<div class="table-responsive">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>User Email</th>
+                <th>User Message</th>
+                <th>Subjet of Message</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Subject)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Message)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

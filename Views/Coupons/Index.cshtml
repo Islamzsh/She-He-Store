@@ -1,0 +1,84 @@
+﻿@model IEnumerable<She_He_Store.Models.Coupon>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+
+
+<head>
+    <style>
+        .product-image {
+            max-width: 150px;
+            height: 150px;
+        }
+
+        table thead tr th {
+            font-weight: 700;
+            color: black;
+        }
+
+        tr td {
+            color: black;
+        }
+    </style>
+</head>
+<h1 style="margin-bottom:15px">Copouns List</h1>
+
+<p>
+    <a asp-action="Create" class="btn" style="background-color:black; color :white">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Couponcode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Discountamount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Expirydate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Createddate)
+            </th>
+            <th style="color:seagreen">
+                @Html.DisplayNameFor(model => model.Isactive)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Couponcode)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Discountamount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Expirydate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Createddate)
+            </td>
+            <td >
+                @Html.DisplayFor(modelItem => item.Isactive)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Couponid">
+
+                        <i class="fa fa-edit"></i>
+                </a> |
+                <a asp-action="Details" asp-route-id="@item.Couponid">
+                        <i class="fa fa-info-circle"></i>
+                </a> |
+                    <a asp-action="Delete" asp-route-id="@item.Couponid"><i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

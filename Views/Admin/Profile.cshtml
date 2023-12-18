@@ -1,0 +1,96 @@
+﻿@model Tuple<User,UserLogin>
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<style>
+    body {
+        background: #fefefd;
+    }
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #717fe0;
+        ;
+    }
+
+    .profile-button {
+        background: #717fe0;
+        
+        box-shadow: none;
+        border: none;
+    }
+
+        .profile-button:hover {
+            background: #2b5797
+        }
+
+        .profile-button:focus {
+            background: #717fe0;
+            box-shadow: none;
+        }
+
+        .profile-button:active {
+            background: #717fe0;
+            box-shadow: none;
+        }
+
+    .back:hover {
+        color: #717fe0;
+        cursor: pointer;
+    }</style>
+
+<div class="container rounded bg-white mt-5">
+    <div class="row">
+
+        <div class="col-md-4 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="rounded-circle mt-5" src="@Url.Content("~/images/" +@Model.Item1.ImagePath)" width="100"><span class="font-weight-bold">@Model.Item1.FirstName @Model.Item1.LastName </span><span class="text-black-50"> @Model.Item2.Username</span></div>
+
+        </div>
+        <div class="col-md-8">
+            <div class="p-3 py-5">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                    <div class="d-flex flex-row align-items-center back">
+                        <a asp-action="Dashboard" asp-controller="Admin">
+
+                            <i class="fa fa-long-arrow-left mr-1 mb-1"> <h6>Back to home</h6></i>
+                           
+                        </a> 
+                    </div>
+                    <h6 class="text-right">Edit Profile</h6>
+                </div>
+                <form asp-action="Profile" enctype="multipart/form-data" method="Post">
+                 
+                <div class="row mt-2">
+                        <div class="col-md-6"><input class="form-control" name="FirstName" placeholder="first name" asp-for="@Model.Item1.FirstName"></div>
+                        <div class="col-md-6"><input class="form-control" name="LastName" placeholder="last name" asp-for="@Model.Item1.LastName"></div>
+                </div>
+
+               
+                <div class="row mt-3">
+                        <div class="col-md-6"><input class="form-control" name="Username" placeholder="Email" asp-for="@Model.Item2.Username"></div>
+                        <div class="col-md-6"><input class="form-control" name="Password" placeholder="Password" asp-for="@Model.Item2.Password"></div>
+                </div>
+                <div class="row mt-3">
+                    <div class="col-md-6">
+
+                        <select asp-for="@Model.Item1.Gender" name="gender" id="gender" class="form-control">
+                            <option value="" disabled selected>Gender</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+                    </div>
+                        <div class="col-md-6"><input name="ImageFile" asp-for="@Model.Item1.ImageFile" class="form-control" placeholder="Change image"></div>
+
+@*                    <div class="col-md-6"><input type="text" class="form-control" value="USA" placeholder="Country"></div>
+*@                </div>
+               
+                <div class="mt-5 text-right"><button class="btn profile-button" style="background-color:black;color:white" type="submit">Save Profile</button></div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

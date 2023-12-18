@@ -1,0 +1,35 @@
+﻿@model She_He_Store.Models.OrderList
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1 style="margin-bottom:15px;">Edit Order Status</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form enctype="multipart/form-data" asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Orderid" />
+
+            <div class="form-group">
+                <label asp-for="Orderstatus" class="control-label">Select Order Status:</label>
+                <select asp-for="Orderstatus" class="form-control">
+                    <option value="Pending" selected>Pending</option>
+                    <option value="Shipped">Shipped</option>
+                    <option value="Delivered">Delivered</option>
+                </select>
+                <span asp-validation-for="Orderstatus" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn" style="background-color:black; color:white" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>

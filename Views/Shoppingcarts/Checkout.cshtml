@@ -1,0 +1,291 @@
+﻿@model Shipping
+
+@{
+    ViewData["Title"] = "Checkout";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #fefefd;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .form-section {
+        width: 100%;
+        max-width: 400px;
+        padding: 10px;
+    }
+
+        .form-section h2 {
+            font-size: 1.5em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    .form-group {
+        margin-bottom: 20px;
+    }
+
+        .form-group label {
+            display: block;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="email"],
+        .form-group select {
+            width:230px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group select {
+            height: 40px;
+        }
+
+    .form-button {
+        text-align: center;
+    }
+
+    .form-button {
+        background-color: #000 !important;
+        color: #fff;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .form-button :hover {
+            background-color: white !important;
+            color: #000;
+            border: 0.1px solid #000;
+        }
+
+    .left-right-container {
+        display: flex;
+        justify-content: space-between;
+      
+    }
+
+    .left-section, .right-section {
+        width: 100%;
+        max-width: 400px;
+    }
+
+
+    .center-button {
+        text-align: center;
+    }
+
+        .center-button button {
+            display: inline-block;
+        }
+
+
+
+    #checkoutSuccessMessage {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center; /* Center horizontally */
+        align-items: center; /* Center vertically */
+        background-color: rgba(0, 0, 0, 0.5); /* Add a semi-transparent background overlay */
+        z-index: 999;
+    }
+
+    .success-card {
+        text-align: center;
+        width: 480px;
+        padding: 10px;
+        background-color: #fff; /* White background for the card */
+        border-radius: 5px;
+    }
+
+    .circle-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        border: 2px solid #28a745;
+    }
+
+    .border-success {
+        border: 2px solid #28a745;
+    }
+
+    .btn-light {
+        background-color: #717fe0;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+
+    .thin-check {
+        transform: scale(0.8);
+    }
+
+</style>
+
+<div class="form-container" style="margin-top: 150px; margin-bottom: 90px;">
+    <h2 class="mtext-105 cl2 js-name-detail p-b-14">Process to Checkout</h2>
+    <form id="checkout-form" asp-action="Checkout" method="post" asp-controller="Shoppingcarts">
+
+        <div class="left-right-container">
+            <div class="left-section" style="  margin-right:150px;">
+                <div class="form-group stext-113">
+                    <label asp-for="Shippingcountry">Shipping Country</label>
+                    <input type="text" asp-for="Shippingcountry" required>
+                </div>
+
+                <div class="form-group stext-113">
+                    <label asp-for="Shippingcity">Shipping City</label>
+                    <input type="text" asp-for="Shippingcity" required>
+                </div>
+
+                <div class="form-group stext-113">
+                    <label asp-for="Shippingpostalcode">Shipping Postal Code</label>
+                    <input type="text" asp-for="Shippingpostalcode" required>
+                </div>
+
+                <div class="form-group stext-113">
+                    <label asp-for="Email">Email</label>
+                    <input type="text" asp-for="Email" required>
+                </div>
+                <div class="form-group stext-113">
+                    <label asp-for="Phonenumber">Phone Number</label>
+                    <input type="text" asp-for="Phonenumber" required>
+                </div>
+            </div>
+
+            <div class="right-section">
+                
+                 
+                <div class="form-group stext-113">
+                    <label for="name">Card Holder</label>
+                    <input type="text" id="name" name="namex" required>
+                </div>
+
+                <div class="form-group stext-113">
+                    <label for="cardNumber">Card Number</label>
+                    <input type="text" id="cardNumber" name="cardNumber" required>
+                </div>
+
+                <div class="form-group stext-113">
+                    <label for="expirationDate">Expiration Date</label>
+                    <input type="text" id="expirationDate" name="expirationDate" placeholder="MM/YY" required>
+                </div>
+
+                <div class="form-group stext-113">
+                    <label for="cvv">CVV</label>
+                    <input type="text" id="cvv" name="cvv" required>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="center-button">
+        <button type="submit" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04 form-button">
+            Submit
+        </button>
+        </div>
+
+      
+
+    </form>
+    <div class="card text-dark bg-light" id="checkoutSuccessMessage" style="display: none;">
+        <div class="success-card">
+            <div class="circle-icon border-success">
+                <i class="fa fa-check fa-4x text-success thin-check"></i>
+            </div>
+            <h5 class="card-title mtext-108 cl2 p-b-7">Order Placed Successfully</h5>
+            <p class="card-text swal-text">Your order has been placed successfully!</p>
+            <div class="d-flex justify-content-end">
+                <a id="okCheckoutButton" class="btn btn-light btn-sm bigger-button" style="background-color: #717fe0; color: #fff;">OK</a>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#checkout-form").submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: $(this).attr("action"),
+                data: $(this).serialize(),
+                success: function (data) {
+                    if (data.success) {
+                        // Show the success message card
+                        $("#checkoutSuccessMessage").show();
+                    } else {
+                        alert("Error: " + data.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.log(xhr.responseText); // Log the detailed error response
+                }
+            });
+
+        });
+    });
+
+
+    // Add a click event handler for the "OK" button
+    $("#okCheckoutButton").on("click", function (e) {
+        e.preventDefault();
+        // Hide the success message card
+        $("#checkoutSuccessMessage").hide();
+    });
+</script>
+
+
+
+
+
+
+
+
+@*
+
+
+                        MimeMessage message = new MimeMessage();
+ MailboxAddress from = new MailboxAddress("She_He_Shop", "xx@gmail.com");
+ message.From.Add(from);
+ MailboxAddress to = new MailboxAddress(user.Customer.Fname, user.Email);
+ message.To.Add(to);
+ message.Subject = "Arrival of the request";
+ BodyBuilder builder = new BodyBuilder();
+ builder.HtmlBody = "<h3>Thank you!</h3>" + " <p>Your order has been successfully received,Thank you.<p>
+    " + "<h5>
+        Best Regards<h5>
+            ";
+            message.Body = builder.ToMessageBody();
+
+            using (var clinte = new SmtpClient())
+            {
+            clinte.Connect("smtp.gmail.com", 465, true);
+            clinte.Authenticate("", "");
+            clinte.Send(message);
+            clinte.Disconnect(true);
+            }
+            smtp.gmail.com
+*@

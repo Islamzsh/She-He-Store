@@ -1,0 +1,219 @@
+﻿
+@{
+    ViewData["Title"] = "ContactUs";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+<style>
+
+	#contactSuccessMessage {
+		position: fixed;
+		top: 50%; 
+		left: 40%;
+		width: 80%; /* Adjust the width as needed */
+		max-width: 400px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgba(0, 0, 0, 0.5);
+		z-index: 999;
+	}
+
+	.success-card {
+		text-align: center;
+		width: 480px;
+		padding: 10px;
+		background-color: #fff;
+		border-radius: 5px;
+		position: relative;
+		z-index: 1;
+		transform: translateY(0);
+		margin: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+	.circle-icon {
+		width: 80px;
+		height: 80px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px auto;
+		border: 2px solid #28a745;
+	}
+
+	.border-success {
+		border: 2px solid #28a745;
+	}
+
+	.btn-light {
+		background-color: #717fe0;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		padding: 8px 16px;
+		margin-top: 10px;
+	}
+
+	.thin-check {
+		transform: scale(0.8);
+	}
+</style>
+<section class="bg-img1 txt-center p-lr-15 p-tb-92" style="background-image: url('../images/skin2.png'); margin-top:116px">
+	<h2 class="ltext-105 cl0 txt-center">
+	Contact
+	</h2>
+</section>
+
+
+
+
+
+<section class="bg0 p-t-104 p-b-116">
+	<div class="container">
+		<div class="flex-w flex-tr">
+			<div class="size-210 bor10 p-lr-70 p-t-55 p-b-70 p-lr-15-lg w-full-md">
+				<form method="post" action="@Url.Action("AddContact", "Home")" id="contact-form">
+					<h4 class="mtext-105 cl2 txt-center p-b-30">
+						Send Us A Message
+					</h4>
+
+					<div class="bor8 m-b-20 how-pos4-parent">
+						<label for="c-email"></label>
+						<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="Email" placeholder="Your Email Address"  required>
+						<img class="how-pos4 pointer-none" src="~/images/icons/icon-email.png" alt="ICON">
+					</div>
+					<div class="bor8 m-b-20 how-pos4-parent">
+						<input class="stext-111 cl2 plh3 size-116 p-l-62 p-r-30" type="text" name="Subject" placeholder="Subject" required>
+
+					
+						
+					</div>
+
+					<div class="bor8 m-b-30" style="margin-top:10px">
+						<textarea class="stext-111 cl2 plh3 size-120 p-lr-28 p-tb-25" name="Message" placeholder="How Can We Help?" required></textarea>
+					</div>
+
+					<button type="submit" class="flex-c-m stext-101 cl0 size-121 bg3 bor1 hov-btn3 p-lr-15 trans-04 pointer">
+						Submit
+					</button>
+
+					<div class="card text-dark bg-light mb-3" id="contactSuccessMessage" style="display: none;">
+						<div class="card-body text-center">
+							<div class="circle-icon border-success">
+								<i class="fa fa-check fa-4x text-success thin-check"></i>
+							</div>
+							<p class="card-text swal-text" >Your Message Sent successfully!</p>
+							<div class="d-flex justify-content-end">
+								<a id="okContactButton" class="btn btn-light btn-sm bigger-button" style="background-color: #717fe0; color: #fff;">OK</a>
+							</div>
+						</div>
+					</div>
+				</form>
+
+				</div>
+
+
+				
+			<div class="size-210 bor10 flex-w flex-col-m p-lr-93 p-tb-30 p-lr-15-lg w-full-md">
+				<div class="flex-w w-full p-b-42">
+					<span class="fs-18 cl5 txt-center size-211">
+						<span class="lnr lnr-map-marker"></span>
+					</span>
+
+					<div class="size-212 p-t-2">
+						<span class="mtext-110 cl2">
+							Address
+						</span>
+
+						<p class="stext-115 cl6 size-213 p-t-18">
+							She&amp;He Store Center 8th floor, 379 Hudson St, New York, NY 10018 US
+						</p>
+					</div>
+				</div>
+
+				<div class="flex-w w-full p-b-42">
+					<span class="fs-18 cl5 txt-center size-211">
+						<span class="lnr lnr-phone-handset"></span>
+					</span>
+
+					<div class="size-212 p-t-2">
+						<span class="mtext-110 cl2">
+							Lets Talk
+						</span>
+
+						<p class="stext-115 cl1 size-213 p-t-18">
+							+1 800 1236879
+						</p>
+					</div>
+				</div>
+
+				<div class="flex-w w-full">
+					<span class="fs-18 cl5 txt-center size-211">
+						<span class="lnr lnr-envelope"></span>
+					</span>
+
+					<div class="size-212 p-t-2">
+						<span class="mtext-110 cl2">
+							Sale Support
+						</span>
+
+						<p class="stext-115 cl1 size-213 p-t-18">
+							contact@example.com
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+
+
+
+<script>
+	$(document).ready(function () {
+		$("#contact-form").submit(function (e) {
+			e.preventDefault();
+			$.ajax({
+				type: "POST",
+				url: '@Url.Action("AddContact", "Home")',
+				data: $("#contact-form").serialize(), // Corrected form ID
+				success: function (data) {
+					if (data.success) {
+						// Show the success message card
+						$("#contactSuccessMessage").show();
+						// Clear the form
+						$("#contact-form")[0].reset();
+					} else {
+						alert("Error: " + data.message);
+					}
+				},
+				error: function () {
+					alert("An error occurred during the request.");
+				}
+			});
+		});
+
+		// Add a click event handler for the "OK" button
+		$("#okContactButton").on("click", function (e) {
+			e.preventDefault();
+			// Hide the success message card
+			$("#contactSuccessMessage").hide();
+		});
+	});
+
+
+</script>
+
+
+

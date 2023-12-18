@@ -1,0 +1,105 @@
+﻿@model IEnumerable<Testimonial>
+
+@{
+    ViewData["Title"] = "Reviews";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yEx1q6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+
+<h1 style="margin-bottom:15px">Testimonials</h1>
+
+
+<div class="table-responsive" >
+    <table class="table" id="review-list">
+        <thead>
+            <tr>
+                <th>User Name</th>
+                <th>User Id</th>
+                <th>Testimonial Text</th>
+                <th>Testimonial Date</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Customername</td>
+                    <td>@item.Userid</td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Testimonialtext)
+                       
+                    </td>
+                    <td>@item.Testimonialdate</td>
+                    <td >
+                        <select class="form-control reveiw-status" data-test-id="@item.Testimonialid">
+                            @if (item.Status == "Pending")
+                            {
+                                <option value="Pending" selected>Pending</option>
+                            }
+                            else
+                            {
+                                <option value="Pending">Pending</option>
+                            }
+
+                            @if (item.Status == "approved")
+                            {
+                                <option value="approved" selected>Approved</option>
+                            }
+                            else
+                            {
+                                <option value="approved">Approved</option>
+                            }
+
+                            @if (item.Status == "rejected")
+                            {
+                                <option value="rejected" selected>Rejected</option>
+                            }
+                            else
+                            {
+                                <option value="rejected">Rejected</option>
+                            }
+                        </select>
+                    </td>
+
+                </tr>
+
+            }
+        </tbody>
+    </table>
+</div>
+
+
+
+<script>
+    $(document).ready(function () {
+        $('#review-list').on('change', '.reveiw-status', function () {
+            var newStatus = $(this).val();
+            var testimonialId = $(this).data('test-id');
+            var updateUrl = '@Url.Action("UpdateStatus", "Admin")';
+
+            console.log('Making AJAX call to:', updateUrl);
+            console.log('testimonialId:', testimonialId);
+            console.log('newStatus:', newStatus);
+
+            $.ajax({
+                url: updateUrl,
+                type: 'POST',
+                dataType: 'json',
+                contentType: 'application/json', // Specify the content type
+                data: JSON.stringify({ testimonialId: testimonialId, newStatus: newStatus }),
+                success: function (result) {
+                    console.log("Updated");
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error:", error);
+                }
+
+            });
+        });
+    });
+</script>

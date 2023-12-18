@@ -1,0 +1,609 @@
+﻿@model Tuple< Product, IEnumerable<Review>>
+@{
+    ViewData["Title"] = "GetProduct";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"> </script>
+	<style>
+	/* Styling for the success message container */
+	#addToCartSuccessMessage {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: none;
+		z-index: 999;
+		text-align: center;
+		width: 480px; 
+		padding: 10px;
+	}
+
+	#addToWishlistSuccessMessage {
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		display: none;
+		z-index: 999;
+		text-align: center;
+		width: 480px;
+		padding: 10px;
+	}
+	.circle-icon {
+		width: 80px; 
+		height: 80px;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 20px auto;
+		border: 2px solid #28a745; 
+	}
+
+	.border-success {
+		border: 2px solid #28a745;
+	}
+
+	.btn-light {
+		background-color: #717fe0;
+		color: #fff;
+		border: none;
+		border-radius: 5px;
+		padding: 8px 16px;
+		margin-top:10px;
+	}
+
+	.thin-check {
+		transform: scale(0.8); 
+	}
+
+	.enlarged-image-container {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.8);
+		z-index: 9999;
+		text-align: center;
+	}
+
+	#enlarged-image {
+		max-width: 90%;
+		max-height: 90%;
+		margin: auto;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+
+
+	</style>
+
+<div class="Container" style="margin-top:100px">
+	<div class="container">
+		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+			<a asp-action="Index" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+				Home
+				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+			</a>
+			@if (Model.Item1.Category != null)
+				{
+			<a asp-action="GetProductByCategory"  asp-route-id="@Model.Item1.Categoryid" asp-controller="Home"class="stext-109 cl8 hov-cl1 trans-04">
+				
+					@Model.Item1.Category.Categoryname
+			
+				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+			</a>
+				}
+			<span class="stext-109 cl4">
+				@Model.Item1.Productname
+
+			</span>
+		</div>
+	</div>
+
+</div>
+
+
+
+<!-- Product Detail -->
+<section class="sec-product-detail bg0 p-t-65 p-b-60" style="margin-top:40px">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-lg-7 p-b-30">
+				<div class="p-l-25 p-r-30 p-lr-0-lg">
+					<div class="wrap-slick3 flex-sb flex-w">
+						
+						<div class="wrap-slick3-arrows flex-sb-m flex-w"></div>
+
+
+						<div class="slick3 gallery-lb">
+							<div class="item-slick3" >
+								<div class="wrap-pic-w pos-relative">
+									<img src="@Url.Content("/images/" +  Model.Item1.ImagePath)" alt="IMG-PRODUCT" >
+
+									<a class="flex-c-m size-108 how-pos1 bor0 fs-16 cl10 bg0 hov-btn3 trans-04 expand-icon">
+										<i class="fa fa-expand">
+										</i>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<div id="enlarged-image-container" class="enlarged-image-container">
+							<img id="enlarged-image" src="" alt="Enlarged Product Image">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-6 col-lg-5 p-b-30">
+				<div class="p-r-50 p-t-5 p-lr-0-lg">
+					<h4 class="mtext-105 cl2 js-name-detail p-b-14">
+						@Model.Item1.Productname 
+
+						
+						</h4>
+					<span class="fs-18 cl11">
+						@for (int i = 0; i < ViewBag.averageRatingOutOf5; i++)
+						{
+							<i class="zmdi zmdi-star"></i>
+						}
+					</span>
+					<br />
+					<span class="mtext-106 cl2">
+						@if (@Model.Item1.Sale > 0)
+						{
+							<span style="text-decoration: line-through; color:red;">$@Model.Item1.Price</span>
+
+							<span class="sale-price" style="font-weight:600"> $@(Model.Item1.Price - (Model.Item1.Price * (Model.Item1.Sale / 100)))</span>
+
+						}
+						else
+						{
+							<text>$@Model.Item1.Price</text>
+						}
+					</span>
+
+					<p class="mtext-33 cl2 p-t-23">
+						@Model.Item1.Stockquantity Piece Avaliable (@Model.Item1.Status)
+					
+					</p>
+					
+
+					
+
+					<p class="stext-102 cl3 p-t-23" style="margin-bottom:50px">
+						@Model.Item1.Description
+					</p>
+
+
+
+
+
+					<form id="addToCartForm" method="post" action="@Url.Action("AddProductsToCart", "Shoppingcarts", new { id = Model.Item1.Productid })">
+						<div class="text-center flex-w flex-m">
+							
+							<!-- Quantity input field -->
+							<div class="wrap-num-product flex-w m-l-auto m-r-0">
+								<!-- Minus button styles -->
+								<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+									<i class="fs-16 zmdi zmdi-minus"></i>
+								</div>
+								<!-- Quantity input field -->
+								<input name="quantity" id="quantity" class="mtext-104 cl3 txt-center num-product" type="number" value="1">
+								<!-- Plus button -->
+								<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+									<i class="fs-16 zmdi zmdi-plus"></i>
+								</div>
+							</div>
+							<!-- "Add to Cart" button -->
+							<button type="submit" id="addToCartButton" class="flex-c-m stext-101 cl0 size-101 bg1 bor1 hov-btn1 p-lr-15 trans-04" style="background-color: black ; margin-left:100px" @if (Model.Item1.Stockquantity == 0)
+							{
+								<text>disabled</text>
+							}>
+		Add to Cart
+	</button>
+
+							<div class="card text-dark bg-light mb-3" id="addToCartSuccessMessage">
+								<div class="card-body text-center">
+									<div class="circle-icon border-success">
+										<i class="fa fa-check fa-4x text-success thin-check"></i> 
+									</div>
+									<h5 class="card-title mtext-108 cl2 p-b-7">@Model.Item1.Productname</h5>
+									<p class="card-text swal-text" id="successMessageContent">is added to cart successfully!</p>
+									<div class="d-flex justify-content-end">
+										<a  id="okButton" class="btn btn-light btn-sm bigger-button" style="background-color: #717fe0; color: #fff;">OK</a>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+					</form>
+
+					<div class="flex-w flex-m p-l-100 p-t-40 respon7">
+						<div class="flex-m bor9 p-r-10 m-r-11">
+
+							<!-- Heart icon to add to wishlist -->
+							<form method="post" action="@Url.Action("AddProductsToWishList", "Wishlistitems")">
+								<input type="hidden" name="id" value="@Model.Item1.Productid" />
+								<button id="addToWishlistButton" class="fs-14 cl3 hov-cl1 trans-04 lh-10 p-lr-5 p-tb-2" type="submit">
+									<i class="zmdi zmdi-favorite" style="text-align:center"> Add To Wishlist </i>
+								</button>
+
+
+
+								<div class="card text-dark bg-light mb-3" id="addToWishlistSuccessMessage" style="display: none;">
+									<div class="card-body text-center">
+										<div class="circle-icon border-success">
+											<i class="fa fa-check fa-4x text-success thin-check"></i>
+										</div>
+										<h5 class="card-title mtext-108 cl2 p-b-7">@Model.Item1.Productname</h5>
+										<p class="card-text swal-text" id="wishlistSuccessMessageContent">is added to your wishlist successfully!</p>
+										<div class="d-flex justify-content-end">
+											<a id="okWishlistButton" class="btn btn-light btn-sm bigger-button" style="background-color: #717fe0; color: #fff;">OK</a>
+										</div>
+									</div>
+								</div>
+
+							</form>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="bor10 m-t-50 p-t-43 p-b-40">
+			<!-- Tab01 -->
+			<div class="tab01">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					
+
+					<li class="nav-item p-b-10">
+						<a class="nav-link" data-toggle="tab" href="#reviews" role="tab">Reviews (@ViewBag.numberOfReviews)</a>
+					</li>
+				</ul>
+
+				<!-- Tab panes -->
+			
+
+			
+					<!-- Reviews -->
+					<div class="tab-pane fade" id="reviews" role="tabpanel">
+						<div class="row">
+							<div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
+								<h5 class="mtext-108 cl2 p-b-7">Product Reviews</h5>
+
+
+								@if (Model.Item2 != null && Model.Item2.Any())
+								{
+									@foreach (var item in Model.Item2)
+									{
+										<div class="flex-w flex-t p-b-68">
+											<div class="size-109 bor0 of-hidden m-r-18 m-t-6">
+												<!-- Display user avatar or other related information -->
+												<img src="@Url.Content("/images/" + @item.User.ImagePath)" height="70px" width="70px" alt="AVATAR">
+											</div>
+											<div class="size-207">
+												<div class="flex-w flex-sb-m p-b-17">
+													<span class="mtext-107 cl2 p-r-20">@item.User.FirstName </span>
+													<span class="fs-18 cl11">
+														@for (int i = 0; i <item.Rating; i++)
+														{
+															<i class="zmdi zmdi-star"></i>
+														}
+													</span>
+												</div>
+
+												<p class="stext-102 cl6">@item.Comments</p>
+												@if (item.Createddate.HasValue && item.Createddate != DateTime.MinValue)
+												{
+													<p class="stext-102 cl6"> @item.Createddate.Value.ToString("yyyy-MM-dd")</p>
+												}
+
+											</div>
+										</div>
+									}
+								}
+								else
+								{
+									<p>No reviews yet. Be the first to review this product.</p>
+								}
+
+								<!-- Add review form -->
+								<!-- Include your review form here, as you have it in the existing code -->
+								<!-- Add review -->
+								<form method="post" action="@Url.Action("AddReview", "Reviews",new{id= Model.Item1.Productid})">
+									<h5 class="mtext-108 cl2 p-b-7">
+										Add a review
+									</h5>
+
+									<p class="stext-102 cl6">
+										Your email address will not be published. Required fields are marked *
+									</p>
+
+									<div class="flex-w flex-m p-t-50 p-b-23">
+										<span class="stext-102 cl3 m-r-16">
+											Your Rating
+										</span>
+
+										<span class="wrap-rating fs-18 cl11 pointer">
+											<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+											<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+											<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+											<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+											<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+											<input class="dis-none" type="number" name="Rating">
+										</span>
+									</div>
+
+									<div class="row p-b-25">
+										<div class="col-12 p-b-5">
+											<label class="stext-102 cl3" for="review">Your review</label>
+											<textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" id="review" name="Comments"></textarea>
+										</div>
+
+										<div class="col-sm-6 p-b-5">
+											<label class="stext-102 cl3" for="name">Name</label>
+											<input class="size-111 bor8 stext-102 cl2 p-lr-20" id="name" type="text" name="name">
+										</div>
+
+										<div class="col-sm-6 p-b-5">
+											<label class="stext-102 cl3" for="email">Email</label>
+											<input class="size-111 bor8 stext-102 cl2 p-lr-20" id="email" type="text" name="email">
+										</div>
+									</div>
+
+									<button class="flex-c-m stext-101 cl0 size-112 bg7 bor11 hov-btn3 p-lr-15 trans-04 m-b-10">
+										Submit
+									</button>
+								</form>
+
+							</div>
+						</div>
+					</div>
+
+					<!-- - -->
+					<div class="tab-pane fade" id="reviews" role="tabpanel">
+						<div class="row">
+							<div class="col-sm-10 col-md-8 col-lg-6 m-lr-auto">
+								<div class="p-b-30 m-lr-15-sm">
+									<!-- Review -->
+									<div class="flex-w flex-t p-b-68">
+										<div class="wrap-pic-s size-109 bor0 of-hidden m-r-18 m-t-6">
+											<img src="images/avatar-01.jpg" alt="AVATAR">
+										</div>
+
+										<div class="size-207">
+											<div class="flex-w flex-sb-m p-b-17">
+												<span class="mtext-107 cl2 p-r-20">
+													Ariana Grande
+												</span>
+
+												<span class="fs-18 cl11">
+													<i class="zmdi zmdi-star"></i>
+													<i class="zmdi zmdi-star"></i>
+													<i class="zmdi zmdi-star"></i>
+													<i class="zmdi zmdi-star"></i>
+													<i class="zmdi zmdi-star-half"></i>
+												</span>
+											</div>
+
+											@*<p class="stext-102 cl6">
+												Quod autem in homine praestantissimum atque optimum est, id deseruit. Apud ceteros autem philosophos
+											</p>*@
+										</div>
+									</div>
+
+									<!-- Add review -->
+									<form class="w-full">
+										<h5 class="mtext-108 cl2 p-b-7">
+											Add a review
+										</h5>
+
+										<p class="stext-102 cl6">
+											Your email address will not be published. Required fields are marked *
+										</p>
+
+										<div class="flex-w flex-m p-t-50 p-b-23">
+											<span class="stext-102 cl3 m-r-16">
+												Your Rating
+											</span>
+
+											<span class="wrap-rating fs-18 cl11 pointer">
+												<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+												<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+												<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+												<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+												<i class="item-rating pointer zmdi zmdi-star-outline"></i>
+												<input class="dis-none" type="number" name="rating">
+											</span>
+										</div>
+
+										<div class="row p-b-25">
+											<div class="col-12 p-b-5">
+												<label class="stext-102 cl3" for="review">Your review</label>
+												<textarea class="size-110 bor8 stext-102 cl2 p-lr-20 p-tb-10" id="review" name="review"></textarea>
+											</div>
+
+											<div class="col-sm-6 p-b-5">
+												<label class="stext-102 cl3" for="name">Name</label>
+												<input class="size-111 bor8 stext-102 cl2 p-lr-20" id="name" type="text" name="name">
+											</div>
+
+											<div class="col-sm-6 p-b-5">
+												<label class="stext-102 cl3" for="email">Email</label>
+												<input class="size-111 bor8 stext-102 cl2 p-lr-20" id="email" type="text" name="email">
+											</div>
+										</div>
+
+										<button class="flex-c-m stext-101 cl0 size-112 bg7 bor11 hov-btn3 p-lr-15 trans-04 m-b-10">
+											Submit
+										</button>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+</section>
+@*
+<div id="redirectTo" data-url="@Url.Action("GetProduct", "Product", new { id = Model.Item1.Productid })"></div>
+
+<div id="redirectToLogin" data-url="@Url.Action("Login", "LoginAndRegister")"></div>
+*@
+
+
+
+    // Get the stock quantity from your model
+ <script>
+    // Get the stock quantity from your model
+    var stockQuantity = @Model.Item1.Stockquantity;
+
+	$(document).ready(function () {
+		// Add a click event handler for the "Add to Cart" button
+		$("#addToCartButton").on("click", function (e) {
+			e.preventDefault(); // Prevent the default form submission
+
+			var chosenQuantity = parseInt($('#quantity').val()); // Get the chosen quantity from the input field
+
+			if (chosenQuantity > 0 && chosenQuantity <= stockQuantity) {
+				var productId = @Model.Item1.Productid; // Get the product ID
+
+				$.ajax({
+					type: "POST",
+					dataType: "json",
+					url: '@Url.Action("AddProductsToCart", "Shoppingcarts")',
+					data: { id: productId, quantity: chosenQuantity },
+					success: function (data) {
+						if (data.success) {
+							// Handle the success case.
+							$("#successMessageContent").text(data.message);
+							$("#addToCartSuccessMessage").show();
+						} else if (data.redirect) {
+							// Redirect to the login page if the user is not authenticated.
+							window.location.href = data.redirect;
+						} else {
+							// Handle other cases or show a message.
+							alert("Error: " + data.message);
+						}
+					},
+					error: function (xhr, textStatus, errorThrown) {
+						// Handle AJAX errors.
+						alert("AJAX error: " + textStatus);
+					}
+				});
+			} else {
+				alert("Invalid quantity. Please choose a quantity between 1 and " + stockQuantity + ".");
+			}
+		});
+
+		// Add a click event handler for the "OK" button in the success message card
+		$("#okButton").on("click", function (e) {
+			e.preventDefault(); // Prevent any default behavior of the link (e.g., navigation)
+
+			// Hide the success message card
+			$("#addToCartSuccessMessage").hide();
+		});
+	});
+
+
+
+
+
+	$(document).ready(function () {
+		// Add a click event handler for the "OK" button
+		$("#okButton").on("click",+ function (e) {
+			e.preventDefault(); // Prevent any default behavior of the link (e.g., navigation)
+
+			// Hide the success message card
+			$("#addToCartSuccessMessage").hide();
+		});
+	});
+	
+
+	//wishlist button 
+		$(document).ready(function () {
+			$("#addToWishlistButton").on("click", function (e) {
+				e.preventDefault(); // Prevent the default form submission
+
+				var productId = @Model.Item1.Productid; // Get the product ID
+
+				// Send an AJAX request to add the product to the wishlist
+				$.ajax({
+					type: "POST",
+				dataType: "json",
+					url: '@Url.Action("AddProductsToWishList", "Wishlistitems")',
+					data: { id: productId },
+					success: function (data) {
+						if (data.success) {
+							// Set the message content inside the card
+							$("#wishlistSuccessMessageContent").text(data.message);
+
+							// Show the success message card
+							$("#addToWishlistSuccessMessage").show();
+						}
+					else if (data.redirect) {
+						// Redirect to the login page if the user is not authenticated.
+						window.location.href = data.redirect;
+					}
+						
+						else {
+							// Handle the error response, e.g., display an error message
+							alert("Error: " + data.message);
+						}
+					},
+				error: function (xhr, textStatus, errorThrown) {
+					// Handle AJAX errors.
+					alert("AJAX error: " + textStatus);
+					}
+
+				});
+
+			});
+
+			// Attach a click event handler to the "OK" button in the wishlist success message
+			$("#okWishlistButton").on("click", function () {
+				// Hide the success message card
+				$("#addToWishlistSuccessMessage").hide();
+			});
+		});
+</script>
+
+
+<script>
+	// Get references to the relevant elements
+	var expandIcon = document.querySelector('.expand-icon');
+	var enlargedImageContainer = document.getElementById('enlarged-image-container');
+	var enlargedImage = document.getElementById('enlarged-image');
+
+	// Add a click event listener to the expand icon
+	expandIcon.addEventListener('click', function () {
+		var productImagePath = '@Url.Content("/images/" + Model.Item1.ImagePath)';
+		enlargedImage.setAttribute('src', productImagePath);
+		enlargedImageContainer.style.display = 'block';
+	});
+
+	// Close the enlarged image when clicked
+	enlargedImageContainer.addEventListener('click', function () {
+		enlargedImageContainer.style.display = 'none';
+	});
+</script>
+
+
+
+

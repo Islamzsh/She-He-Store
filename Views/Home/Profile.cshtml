@@ -1,0 +1,269 @@
+﻿@model Tuple<User, UserLogin>
+@{
+    ViewData["Title"] = "Profile";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+
+<head>
+    <!--====== Vendor Css ======-->
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!--====== Utility-Spacing ======-->
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!--====== App ======-->
+    <link rel="stylesheet" href="css/app.css">
+
+
+    <style>
+
+        .section__content {
+            position: relative;
+        }
+            /* Products-Slider (Previous & Next Buttons) */
+            .section__content:hover .p-prev, . :hover .t-prev, .section__content:hover .p-next, .section__content:hover .t-next {
+                opacity: 1;
+            }
+
+            .section__content:hover .b-prev, .section__content:hover .b-next {
+                opacity: 1;
+            }
+
+
+
+            .dash__box--bg-white {
+  background-color: #ffffff; }
+
+.dash__box--border {
+  border: 1px solid #eee; }
+
+.dash__box--bg-grey {
+  background-color: #fbfbfb; }
+
+.dash__box--shadow {
+  box-shadow: -2px 0px 14px 0 rgba(36, 37, 38, 0.08); }
+
+.dash__box--shadow-2 {
+  box-shadow: -6px 2px 8px 0 rgba(36, 37, 38, 0.08); }
+
+.dash__box--radius {
+  border-radius: 15px; }
+
+.dash__pad-1 {
+  padding: 30px 20px; }
+
+.dash__pad-2 {
+  padding: 24px; }
+
+.dash__pad-3 {
+  padding: 26px; }
+
+.dash__f-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .dash__f-list > li {
+    padding: 6px 0; }
+    .dash__f-list > li > a {
+      font-size: 13px;
+      display: block;
+      color: #000000; }
+
+.dash-l-r {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+
+.dash__w-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+  .dash__w-list > li {
+    border-bottom: 1px solid #eee; }
+
+.dash__w-wrap {
+  padding: 18px 0; }
+
+.dash__w-icon {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  line-height: 55px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-bottom: 8px; }
+
+
+
+.dash__h1 {
+  line-height: 1;
+  color: #333333;
+  font-size: 18px; }
+
+.dash__h2 {
+  line-height: 1;
+  font-size: 14px;
+  color: #333333; }
+
+.dash__text {
+  display: block;
+  font-size: 12px;
+  color: #7f7f7f; }
+
+.dash__text-2 {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7f7f7f; }
+
+.dash__link > a {
+  font-size: 13px;
+  font-weight: 600;
+  transition: color 0.5s linear; }
+
+
+
+.dash__link--secondary > a {
+  color: #333333; }
+  .dash__link--secondary > a:hover {
+                color: #717fe0;
+            }
+
+.dash__link--black > a {
+  color: #000000; }
+
+
+media (max-width: 991px) {
+  .dash__box--w {
+    margin-bottom: 30px; } }
+
+
+        .profile-row {
+            margin-bottom: 30px;
+        }
+
+        .profile-label {
+            margin-bottom: 7px;
+        }
+
+    </style>
+</head>
+
+
+    <div class="Container" style="margin-top:100px; margin-bottom:50px">
+        <div class="container">
+            <div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+                <a asp-action="Index" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+                    Home
+                    <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+                </a>
+              
+                <span class="stext-109 cl4">
+                    <a asp-action="Profile" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+                       Profile
+                    </a>
+               
+                </span>
+            </div>
+        </div>
+
+   </div>
+    <!--====== Section 2 ======-->
+    <div class="u-s-p-b-60" style="margin-top:40px; margin-bottom:130px;">
+
+        <!--====== Section Content ======-->
+        <div class="section__content">
+            <div class="dash">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12">
+
+                            <!--====== Dashboard Features ======-->
+                            <div class="dash__box dash__box--bg-white dash__box--shadow u-s-m-b-30">
+                                <div class="dash__pad-1">
+
+                                    <span class="dash__text u-s-m-b-16 stext-101">Hello,  @Model.Item1.FirstName</span>
+                                    <ul class="dash__f-list">
+                                      
+                                        <li>
+
+                                            <a class="dash-active stext-101" asp-action="Profile" asp-controller="Home">My Profile</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="col-lg-9 col-md-12">
+                            <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white u-s-m-b-30">
+                                <div class="dash__pad-2">
+
+                                  
+                                    <div class="row">
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            
+                                                <img src="@Url.Content("/images/" +  Model.Item1.ImagePath)" alt="User Image" class="img-fluid rounded" />
+                                            
+                                           
+                                        </div>
+
+
+
+                                        <div class="col-lg-4 u-s-m-b-30">
+                                            <h2 class="dash__h2 u-s-m-b-8 stext-101 profile-label">First Name</h2>
+
+                                            <span class="dash__text stext-101 profile-row">@Model.Item1.FirstName </span>
+
+
+                                            <h2 class="dash__h2 u-s-m-b-8 stext-101 profile-label ">Last Name</h2>
+
+                                            <span class="dash__text stext-101 profile-row">@Model.Item1.LastName</span>
+                                        </div>
+                                        <div class="col-lg-4 u-s-m-b-30">
+
+                                            <h2 class="dash__h2 u-s-m-b-8 stext-101 profile-label ">Gender</h2>
+
+                                            <span class="dash__text stext-101 profile-row">@Model.Item1.Gender</span>
+
+                                            <h2 class="dash__h2 u-s-m-b-8 stext-101 profile-label">E-mail</h2>
+
+                                            <span class="dash__text stext-101 ">@Model.Item2.Username</span>
+
+                                     
+                                           
+                                        </div>
+                                  
+                                       @* <div class="col-lg-4 u-s-m-b-30">
+                                          
+                                        </div>*@
+                                       
+                                    </div>
+                                  
+                                     @*   <div class="col-lg-12">
+                                           *@
+                                            <div class="flex-c-m flex-w w-full p-t-45 ">
+                                            <a asp-action="EditProfile" asp-controller="Home" class="flex-c-m stext-101 cl5 size-102 bg2 bor1 hov-btn1 p-lr-15 trans-04 button-style stext-101" style="margin-right:20px">
+                                                    Edit Profile 
+                                                </a>
+                                            </div>
+@*                                        </div>*@
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--====== End - Section Content ======-->
+    </div>
+    <!--====== End - Section 2 ======-->
+</div>
+
+

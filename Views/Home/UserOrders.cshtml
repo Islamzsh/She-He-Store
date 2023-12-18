@@ -1,0 +1,492 @@
+﻿@model IEnumerable<Order>
+@{
+    ViewData["Title"] = "UserOrders";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+
+<head>
+    <!--====== Vendor Css ======-->
+    <link rel="stylesheet" href="css/vendor.css">
+
+    <!--====== Utility-Spacing ======-->
+    <link rel="stylesheet" href="css/utility.css">
+
+    <!--====== App ======-->
+    <link rel="stylesheet" href="css/app.css">
+
+
+    <style>
+
+  .dash__box--bg-white {
+  background-color: #ffffff; }
+
+.dash__box--border {
+  border: 1px solid #eee; }
+
+.dash__box--bg-grey {
+  background-color: #fbfbfb; }
+
+.dash__box--shadow {
+  box-shadow: -2px 0px 14px 0 rgba(36, 37, 38, 0.08); }
+
+.dash__box--shadow-2 {
+  box-shadow: -6px 2px 8px 0 rgba(36, 37, 38, 0.08); }
+
+.dash__box--radius {
+  border-radius: 15px; }
+
+.dash__pad-1 {
+  padding: 26px 20px; }
+
+.dash__pad-2 {
+  padding: 24px; }
+
+.dash__pad-3 {
+  padding: 26px; }
+
+.dash__f-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .dash__f-list > li {
+    padding: 4px 0; }
+    .dash__f-list > li > a {
+      font-size: 13px;
+      display: block;
+      color: #000000; }
+
+.dash-l-r {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.dash-active {
+  font-weight: 600;
+  color: #000000; }
+
+.dash__w-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+  .dash__w-list > li {
+    border-bottom: 1px solid #eee; }
+
+.dash__w-wrap {
+  padding: 18px 0; }
+
+.dash__w-icon {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 14px;
+  margin-bottom: 8px; }
+
+.dash__w-text {
+  display: block;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 1;
+  color: #000000; }
+
+.dash__w-name {
+  display: block;
+  color: #a0a0a0;
+  font-weight: 600;
+  font-size: 13px; }
+
+.dash__h1 {
+  line-height: 1;
+  color: #333333;
+  font-size: 18px; }
+
+.dash__h2 {
+  line-height: 1;
+  font-size: 14px;
+  color: #333333; }
+
+.dash__text {
+  display: block;
+  font-size: 12px;
+  color: #7f7f7f; }
+
+.dash__text-2 {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  color: #7f7f7f; }
+
+.dash__link > a {
+  font-size: 13px;
+  font-weight: 600;
+  transition: color 0.5s linear; }
+
+.dash__link--brand > a {
+  color: #ff4500; }
+  .dash__link--brand > a:hover {
+    color: #fa4400; }
+
+.dash__link--secondary > a {
+  color: #333333; }
+  .dash__link--secondary > a:hover {
+    color: #ff4500; }
+
+.dash__link--black > a {
+  color: #000000; }
+
+.dash__table-wrap {
+  height: 300px;
+  overflow: auto; }
+
+.dash__table {
+  width: 100%;
+  border-collapse: collapse; }
+  .dash__table thead {
+    background-color: #fbfbfb; }
+  .dash__table th, .dash__table td {
+    padding: 20px;
+    text-align: center;
+    font-weight: 600;
+    color: #333333; }
+  .dash__table th {
+    font-size: 14px; }
+  .dash__table td {
+    font-size: 13px; }
+  .dash__table tbody tr {
+    border-bottom: 1px solid #eee; }
+    .dash__table tbody tr:last-child {
+      border-bottom: 0; }
+
+.dash__table-img-wrap {
+  background-color: #f5f5f5;
+  display: inline-block;
+  vertical-align: middle;
+  width: 40px;
+  height: 40px; }
+  .dash__table-img-wrap img {
+    display: block;
+    min-width: 40px; }
+
+.dash-edit-p {
+  width: 100%; }
+  .dash-edit-p .btn, .dash-edit-p .input-text, .dash-edit-p .select-box {
+    border-radius: 6px; }
+  .dash-edit-p .input-text {
+    width: 100%; }
+  .dash-edit-p .btn {
+    font-weight: 600;
+    padding: 16px 46px; }
+
+.dash__custom-link {
+  font-weight: 600;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 18px;
+  font-size: 13px;
+  border-radius: 6px;
+  width: 12rem; }
+
+
+
+.manage-o__header {
+  padding-bottom: 14px;
+  border-bottom: 1px solid #eee; }
+
+.manage-o__icon {
+  font-weight: 600;
+  font-size: 13px;
+  color: #333333; }
+
+.manage-o__timeline {
+  padding-top: 40px; }
+  .manage-o__timeline [class*="col-"] {
+    padding: 0;
+    text-align: center; }
+
+.timeline-row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.timeline-l-i {
+  position: relative;
+  border-radius: 3px;
+  border-top: 3px solid #eee; }
+  .timeline-l-i .timeline-circle {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background: #ffffff;
+    border: 2px solid #eee;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0; }
+    .timeline-l-i .timeline-circle:before {
+      content: "";
+      display: block;
+      width: 8px;
+      height: 8px;
+      background-color: #eee;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0; }
+
+.timeline-l-i.timeline-l-i--finish {
+  border-color: #6B5AED; }
+  .timeline-l-i.timeline-l-i--finish .timeline-circle {
+    border-color: #6B5AED; }
+    .timeline-l-i.timeline-l-i--finish .timeline-circle:before {
+      background-color: #6B5AED; }
+
+.timeline-text {
+  margin-top: 20px;
+  font-size: 13px;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  color: #333333; }
+
+.manage-o__description {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.description__container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.description__img-wrap {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  background: #f5f5f5; }
+  .description__img-wrap img {
+    border-radius: 50%;
+    display: block;
+    min-width: 90px; }
+
+.description-title {
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #333333; }
+
+.dash__address-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.dash__table-2-wrap {
+  overflow: auto; }
+
+.dash__table-2 {
+  width: 100%;
+  border-collapse: collapse; }
+  .dash__table-2 thead {
+    background-color: #fbfbfb; }
+  .dash__table-2 th, .dash__table-2 td {
+    padding: 20px;
+    min-width: 200px;
+    text-align: left;
+    font-weight: 600;
+    color: #333333; }
+  .dash__table-2 th {
+    font-size: 14px; }
+  .dash__table-2 td {
+    font-size: 13px; }
+  .dash__table-2 tbody tr {
+    border-bottom: 1px solid #eee; }
+    .dash__table-2 tbody tr:last-child {
+      border-bottom: 0; }
+
+.address-book-edit {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 6px; }
+
+.dash__address-make {
+  width: 100%; }
+  .dash__address-make .btn {
+    font-weight: 600;
+    padding: 16px 46px;
+    border-radius: 6px; }
+
+.dash-address-manipulation {
+  width: 100%; }
+  .dash-address-manipulation .btn, .dash-address-manipulation .input-text, .dash-address-manipulation .select-box {
+    border-radius: 6px; }
+  .dash-address-manipulation .input-text, .dash-address-manipulation .select-box {
+    width: 100%; }
+  .dash-address-manipulation .btn {
+    font-weight: 600;
+    padding: 16px 46px; }
+
+.dash-track-order {
+  width: 100%; }
+  .dash-track-order .btn, .dash-track-order .input-text {
+    border-radius: 6px; }
+  .dash-track-order .input-text {
+    width: 100%; }
+  .dash-track-order .btn {
+    font-weight: 600;
+    padding: 16px 46px; }
+
+.m-order {
+  width: 100%; }
+  .m-order__select-wrapper {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center; }
+  .m-order label {
+    color: #333333;
+    font-size: 13px;
+    font-weight: 600; }
+  .m-order .select-box {
+    border-radius: 6px; }
+
+.m-order__list {
+  background-color: #ffffff; }
+
+.m-order__get {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+  padding: 24px; }
+  .m-order__get:last-child {
+    margin-bottom: 0; }
+
+.manage-o__badge {
+  display: inline-block;
+  text-align: center;
+  width: 5.9375rem;
+  padding: 8px;
+  font-size: 13px;
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 32px; }
+
+
+media (max-width: 991px) {
+  .dash__box--w {
+    margin-bottom: 30px; } }
+
+media (max-width: 767px) {
+  .dash__address-header {
+    display: block; }
+    .dash__address-header .dash__h1 {
+      margin-bottom: 8px; }
+    .dash__address-header .dash__link {
+      display: block; } }
+
+media (max-width: 575px) {
+  .dash-l-r {
+    display: block; }
+  .manage-o__description {
+    display: block;
+    text-align: center; }
+  .description__container {
+    display: block; }
+  .description-title {
+    margin: 12px 0; } }
+
+    </style>
+</head>
+<div class="container" style="margin-top: 100px; margin-bottom: 50px">
+    <div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+        <a asp-action="Index" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+            Home
+            <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+        </a>
+        <span class="stext-109 cl4">
+            <a asp-action="UserOrders" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+                Orders
+            </a>
+        </span>
+    </div>
+</div>
+
+<!-- Section 2 -->
+<div class="u-s-p-b-60">
+    <!-- Section Content -->
+    <div class="section__content">
+        <div class="dash container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12">
+                    <!-- Dashboard Features -->
+                    <div class="dash__box dash__box--bg-white dash__box--shadow u-s-m-b-30">
+                        <div class="dash__pad-1">
+                            <ul class="dash__f-list">
+                                <li>
+                                    <a class="dash-active stext-101" asp-action="UserOrders" asp-controller="Home">My Orders</a>
+                                </li>
+                                <li>
+                                    <a asp-action="TrackOrder" asp-controller="Home" class="stext-101">Track Order</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-12">
+                    <div class="dash__box dash__box--shadow dash__box--radius dash__box--bg-white u-s-m-b-30">
+                        <div class="dash__pad-2">
+                            <h1 class="dash__h1 u-s-m-b-14 stext-109" style="margin-bottom: 17px">My Orders</h1>
+
+                            @foreach (var item in Model)
+                            {
+                                <div class="m-order__list">
+                                    <div class="m-order__get">
+                                        <div class="manage-o__header u-s-m-b-30 stext-101">
+                                            <div class="dash-l-r">
+                                                <div>
+                                                    <div class="stext-101">Order #@item.Orderid</div>
+                                                    <div class="stext-101">Placed on @item.Orderdate</div>
+                                                   
+                                                    <div class="stext-101" style="color: #717fe0;">@item.Orderstatus</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="manage-o__description">
+                                            <div class="description__info-wrap">
+                                                <div>
+                                                    <span class="">
+                                                        Total:
+                                                        <span class="stext-101">$@item.Totalamount</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

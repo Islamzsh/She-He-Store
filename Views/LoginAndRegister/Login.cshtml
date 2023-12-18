@@ -1,0 +1,83 @@
+﻿@model UserLogin
+@{
+	ViewData["Title"] = "Login";
+	Layout = null;
+}
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RegistrationForm_v1 by Colorlib</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+
+	<!-- MATERIAL DESIGN ICONIC FONT -->
+	<link rel="stylesheet" href="~/LoginAndRegisterAssets/fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+	<!-- STYLE CSS -->
+	<link rel="stylesheet" href="~/LoginAndRegisterAssets/css/style.css">
+</head>
+
+<body>
+
+	<div class="wrapper" style="background-color:#FCF5ED">
+		<div class="inner">
+			<form class="register-form" id="login-form" action="@Url.Action("Login", "LoginAndRegister")" method="POST">
+				@Html.AntiForgeryToken()
+				@if (!string.IsNullOrEmpty(@ViewBag.ReturnUrl))
+				{
+					<input type="hidden" name="returnUrl" value="@ViewBag.ReturnUrl" />
+				}
+				<h3>Sign In</h3>
+
+				<div class="form-wrapper" >
+					<label for="your_name"></label>
+					<input type="text" asp-for="Username" placeholder="Username" class="form-control" required/>
+					
+					<i class="zmdi zmdi-email"></i>
+				</div>
+
+
+				<div class="form-wrapper">
+					<label for="your_pass"></label>
+					<input type="password" asp-for="Password" placeholder=" Password" class="form-control" required />
+					<i class="zmdi zmdi-lock"></i>
+				</div>
+				@*<div class="form-wrapper">
+				<input type="password" placeholder="Confirm Password" class="form-control">
+				<i class="zmdi zmdi-lock"></i>
+				</div>*@
+				<br /><br />
+				<button 
+					 type="submit" name="signin" id="signin" class="form-submit" value="Log in" >
+					Log In
+					<i class="zmdi zmdi-arrow-right"></i>
+				</button>
+
+				<br /><br />
+				<div class="create-account-link">
+					<p>Don't have an account? <a style="color:black ; text-decoration:none" asp-action="Register" asp-controller="LoginAndRegister">Create an account</a></p>
+				</div>
+			</form>
+
+			
+
+			<div class="image-holder">
+				<img src="~/LoginAndRegisterAssets/images/login2.jpg" alt="">
+
+			</div>
+
+
+
+			
+		</div>
+	</div>
+
+</body>
+</html>
+

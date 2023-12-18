@@ -1,0 +1,170 @@
+﻿@*@model List<She_He_Store.Models.Order>
+
+@{
+    ViewData["Title"] = "ManageOrders";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yEx1q6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<h1 style="margin-bottom:15px">Manage Orders</h1>
+
+<div class="table-responsive">
+    <table class="table" id="Users">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Order Date</th>
+                <th>Total Amount</th>
+                <th>Shipping City</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Orderid</td>
+                    <td>@order.Orderdate</td>
+                    <td>@order.Totalamount</td>
+                    @if (order.IdNavigation != null)
+                    {
+                        <td>@order.IdNavigation.Shippingcity</td>
+                    }
+                    <td>@order.Orderstatus</td>
+                    <td>
+                        @if (order.Orderstatus != "Delivered")
+                        {
+                            <button class="btn btn-success update-status" data-test-id="@order.Orderid" data-status="Delivered">Mark as Delivered</button>
+                        }
+                        @if (order.Orderstatus != "Shipped")
+                        {
+                            <button class="btn btn-primary update-status" data-test-id="@order.Orderid" data-status="Shipped">Mark as Shipped</button>
+                        }
+                        @if (order.Orderstatus != "Pending")
+                        {
+                            <button class="btn btn-warning update-status" data-test-id="@order.Orderid" data-status="Pending">Mark as Pending</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $('.update-status').click(function () {
+            var newStatus = $(this).data('status');
+            var orderId = $(this).data('test-id');
+            var updateUrl = '@Url.Action("UpdateOrderStatus", "Admin")';
+
+            console.log('Making AJAX call to:', updateUrl);
+            console.log('orderId:', orderId);
+            console.log('newStatus:', newStatus);
+
+            $.ajax({
+                url: updateUrl,
+                type: 'POST',
+                data: { orderId: orderId, newStatus: newStatus },
+                success: function (result) {
+                    console.log("Updated");
+                    console.log(result);  // Log the result to check if it contains the new status
+                },
+                error: function (xhr, status, error) {
+                    console.log("Error:", error);
+                }
+            });
+        });
+    });
+</script>
+*@
+
+
+
+<!-- Views/Admin/ManageOrders.cshtml -->
+@model List<She_He_Store.Models.Order>
+
+@{
+    ViewData["Title"] = "ManageOrders";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1 style="margin-bottom:15px">Manage Orders</h1>
+
+<div class="table-responsive">
+    <table class="table" id="Orders">
+        <thead>
+            <tr>
+                <th>Order ID</th>
+                <th>Order Date</th>
+                <th>Total Amount</th>
+                <th>Shipping City</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var order in Model)
+            {
+                <tr>
+                    <td>@order.Orderid</td>
+                    <td>@order.Orderdate</td>
+                    <td>@order.Totalamount</td>
+                    @if (order.IdNavigation != null)
+                    {
+                        <td>@order.IdNavigation.Shippingcity</td>
+                    }
+                    <td>@order.Orderstatus</td>
+                    <td>
+                        @if (order.Orderstatus != "Delivered")
+                        {
+                            <button class="btn btn-success update-status" data-test-id="@order.Orderid" data-status="Delivered">Mark as Delivered</button>
+                        }
+                        @if (order.Orderstatus != "Shipped")
+                        {
+                            <button class="btn btn-primary update-status" data-test-id="@order.Orderid" data-status="Shipped">Mark as Shipped</button>
+                        }
+                        @if (order.Orderstatus != "Pending")
+                        {
+                            <button class="btn btn-warning update-status" data-test-id="@order.Orderid" data-status="Pending">Mark as Pending</button>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+
+<script>
+    $(document).ready(function () {
+        $('.update-status').click(function () {
+            var newStatus = $(this).data('status');
+            var orderId = $(this).data('test-id');
+            var updateUrl = '@Url.Action("UpdateOrderStatus", "Admin")';
+
+            $.ajax({
+                url: updateUrl,
+                type: 'POST',
+                data: { orderId: orderId, newStatus: newStatus },
+                success: function (result) {
+                    if (result.success) {
+                        // Update the UI or provide feedback as needed
+                        console.log("Order status updated:", result.newStatus);
+                        // Optional: Update the UI, hide the button, etc.
+                        // Example: $(this).hide();
+                    } else {
+                        console.error(result.message);
+                    }
+                },
+                error: function (xhr, status, error) {
+                    console.error("Error updating order status:", error);
+                }
+            });
+        });
+    });
+</script>
+

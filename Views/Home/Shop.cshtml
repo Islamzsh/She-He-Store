@@ -1,0 +1,344 @@
+﻿@model Tuple<IEnumerable<Category>, IEnumerable<Product>>
+
+@{
+    ViewData["Title"] = "Shop";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+<style>
+	.sale-tape {
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: red;
+		color: white;
+		padding: 5px 10px;
+		font-weight: 600;
+	}
+
+	.original-price {
+		text-decoration: line-through;
+		color: black
+	}
+
+
+	/* General card styling */
+	.product-item {
+		box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+		transition: 0.3s;
+		border-radius: 5px; /* Rounded borders */
+		overflow: hidden; /* Ensure the content fits well */
+		background: #fff; /* Card background color */
+		margin-bottom: 15px; /* Spacing between cards */
+	}
+
+		/* On hover, add a little bit of shadow for depth */
+		.product-item:hover {
+			box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+		}
+
+	/* Image styling */
+	.block2-pic {
+		width: 100%;
+		overflow: hidden; /* Hide overflow */
+	}
+
+		.block2-pic img {
+			width: 100%;
+			height: auto;
+			transition: transform .5s ease; /* Smooth transition for zoom */
+		}
+
+		/* Slightly grow the image on hover */
+		.block2-pic:hover img {
+			transform: scale(1.05);
+		}
+
+	/* Text content styling */
+	.block2-txt {
+		padding: 15px; /* Padding inside the card */
+	}
+
+	.block2-txt-child1 {
+		margin-bottom: 10px; /* Spacing between title and price */
+	}
+
+	/* Sale tape styling */
+	.sale-tape {
+		z-index: 10; /* Ensure it's above other content */
+		border-radius: 0 5px 5px 0; /* Rounded corner on the right side */
+	}
+
+	/* Price styling */
+	.stext-105 {
+		color: #333; /* Default text color */
+		font-weight: bold; /* Make the price bold */
+	}
+
+	.original-price {
+		margin-right: 5px; /* Spacing between original price and sale price */
+	}
+
+	.sale-price {
+		color: #e65540; /* Sale price color */
+	}
+
+</style>
+
+
+<div class="Container" style="margin-top:150px">
+	<div class="container">
+		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+			<a asp-action="Index" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+				Home
+				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+			</a>
+
+			<a asp-action="Shop" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+				Shop
+			</a>
+
+		</div>
+	</div>
+
+</div>
+<section class="bg0 p-t-23 p-b-140">
+	<div class="container"  style="margin-top:30px">
+		<div class="p-b-10">
+			<h3 class="ltext-103 cl5">
+				Product Overview
+			</h3>
+		</div>
+		
+		<div class="flex-w flex-sb-m p-b-52">
+			<div class="flex-w flex-l-m filter-tope-group m-tb-10">
+				
+				<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 category-button" data-category="All">
+					All Products
+				</button>
+				@foreach (var item in Model.Item1)
+				{
+					<button class="stext-106 cl6 hov1 bor3 trans-04 m-r-32 m-tb-5 category-button" data-category="@item.Categoryname">
+						@item.Categoryname
+					</button>
+
+					
+
+				}
+	
+			</div>
+
+			<div class="flex-w flex-c-m m-tb-10">
+				
+
+				<div class="flex-c-m stext-106 cl6 size-105 bor4 pointer hov-btn3 trans-04 m-tb-4 js-show-search">
+					<i class="icon-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-search"></i>
+					<i class="icon-close-search cl2 m-r-6 fs-15 trans-04 zmdi zmdi-close dis-none"></i>
+					Search
+				</div>
+			</div>
+
+			<!-- Search product -->
+			<div class="dis-none panel-search w-full p-t-10 p-b-15">
+				<div class="bor8 dis-flex p-l-15">
+					<button class="size-113 flex-c-m fs-16 cl2 hov-cl1 trans-04">
+						<i class="zmdi zmdi-search"></i>
+					</button>
+
+					<input class="mtext-107 cl2 size-114 plh2 p-r-15" type="text" id="search-input" placeholder="Search">
+				</div>
+			</div>
+		</div>
+		
+		<div class="row isotope-grid" >
+			@foreach (var item in Model.Item2)
+			{
+
+				<div class="col-sm-6 col-md-4 col-lg-3 product-item" data-category="@item.Category.Categoryname">
+					<!-- Block2 -->
+					<div class="block2">
+						<div class="block2-pic hov-img0">
+
+
+							@if (@item.Sale > 0)
+							{
+								<div class="sale-tape">@item.Sale% Off</div>
+							}
+							<img src="@Url.Content("/images/" + item.ImagePath)" alt="IMG-PRODUCT">
+							<a asp-action="GetProduct" asp-controller="Products" asp-route-id="@item.Productid" class="block2-btn flex-c-m stext-103 cl2 size-102 bg0 bor2 hov-btn1 p-lr-15 trans-04">
+								Quick View
+							</a>
+						</div>
+
+
+						<div class="block2-txt flex-w flex-t p-t-14">
+							<div class="block2-txt-child1 flex-col-l ">
+								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+									@item.Productname
+								</a>
+
+
+								<span class="stext-105 cl3">
+									@if (@item.Sale > 0)
+									{
+										<span style="text-decoration: line-through; color:red;">$@item.Price</span>
+
+										<span class="sale-price" style="font-weight:600; color:black"> $@(item.Price - (item.Price * (item.Sale / 100)))</span>
+
+									}
+									else
+									{
+										<text>$@item.Price</text>
+									}
+								</span>
+							</div>
+
+							<div class="block2-txt-child2 flex-r p-t-3">
+								<a href="#" class="btn-addwish-b2 dis-block pos-relative js-addwish-b2">
+									<img class="icon-heart1 dis-block trans-04" src="~/images/icons/icon-heart-01.png" alt="ICON">
+									<img class="icon-heart2 dis-block trans-04 ab-t-l" src="~/images/icons/icon-heart-02.png" alt="ICON">
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			
+
+		}
+		</div>
+
+	</div>
+</section>
+<div style="margin-bottom:800px"></div>
+<div style="margin-bottom:800px"></div>
+<div style="margin-bottom:800px"></div>
+
+<script>
+		
+		
+		
+		
+		
+		
+		@*$document.addEventListener('DOMContentLoaded', function () {
+			var $grid = $('.isotope-grid').isotope({
+				itemSelector: '.isotope-item',
+				layoutMode: 'fitRows'
+			});
+
+			
+
+			
+		var categoryButtons = document.querySelectorAll('.category-button');
+		var productItems = document.querySelectorAll('.product-item');
+
+		categoryButtons.forEach(function(button) {
+			button.addEventListener('click', function() {
+				var selectedCategory = this.getAttribute('data-category');
+
+				productItems.forEach(function(item) {
+					if (selectedCategory === 'All' || item.getAttribute('data-category') === selectedCategory) {
+						item.style.display = '';
+					} else {
+						item.style.display = 'none';
+					}
+				});
+			});
+		});
+	});*@
+
+
+
+
+		document.addEventListener('DOMContentLoaded', function () {
+			const searchInput = document.getElementById('search-input');
+			const categoryButtons = document.querySelectorAll('.category-button');
+			const productItems = document.querySelectorAll('.product-item');
+
+			function filterProducts() {
+				const searchTerm = searchInput.value.toLowerCase();
+				const selectedCategory = document.querySelector('.category-button.active')?.getAttribute('data-category') || 'All';
+
+				productItems.forEach(function (item) {
+					const productName = item.querySelector('.js-name-b2').textContent.toLowerCase();
+					const productCategory = item.getAttribute('data-category');
+					const categoryMatch = (selectedCategory === 'All' || productCategory === selectedCategory);
+					const searchMatch = productName.includes(searchTerm);
+
+					if (categoryMatch && searchMatch) {
+						item.style.display = 'block'; // Use the display style that matches your layout
+					} else {
+						item.style.display = 'none';
+					}
+				});
+			}
+
+			// Category filter event listeners
+			categoryButtons.forEach(function (button) {
+				button.addEventListener('click', function () {
+					categoryButtons.forEach(btn => btn.classList.remove('active'));
+					button.classList.add('active');
+					filterProducts();
+				});
+			});
+
+			// Search functionality event listener
+			searchInput.addEventListener('keyup', filterProducts);
+		});
+
+
+
+</script>
+
+
+
+		@*$(document).ready(function () {
+		var $grid = $('.isotope-grid').isotope({
+			itemSelector: '.isotope-item',
+			layoutMode: 'fitRows'
+		});
+
+		$('#search-input').on('keyup', function () {
+			var searchTerm = $(this).val().toLowerCase();
+			var selectedCategory = $('.category-button.active').data('category');
+			console.log('Search Term:', searchTerm);
+			console.log('Selected Category:', selectedCategory);
+			applyFilter(searchTerm, selectedCategory);
+		});
+
+		$('.category-button').on('click', function () {
+			$(this).addClass('active').siblings().removeClass('active');
+			var searchTerm = $('#search-input').val().toLowerCase();
+			var selectedCategory = $(this).data('category');
+			console.log('Search Term:', searchTerm);
+			console.log('Selected Category:', selectedCategory);
+			applyFilter(searchTerm, selectedCategory);
+		});
+
+		function applyFilter(searchTerm, selectedCategory) {
+			console.log('Applying Filter');
+			$grid.isotope({ filter: '*' });
+
+			// Filter by category
+			if (selectedCategory !== "All") {
+				console.log('Filtering by category:', selectedCategory);
+				$grid.isotope({ filter: '[data-category="' + selectedCategory + '"]' });
+			}
+
+			// Search by product name
+			if (searchTerm !== "") {
+				$grid.isotope({
+					filter: function () {
+						return $(this).data('search').toLowerCase().indexOf(searchTerm) !== -1;
+					}
+				});
+			}
+		}
+		});
+
+*@

@@ -1,0 +1,270 @@
+﻿@model IEnumerable<She_He_Store.Models.ProductCart>
+
+
+@{
+    ViewData["Title"] = "MyCart";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<head>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+</head>
+
+<div class="Container" style="margin-top:140px">
+	<div class="container">
+		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+			<a asp-action="Index" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+				Home
+				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+			</a>
+			<a asp-action="MyCart" asp-controller="ShoppingCarts" class="stext-109 cl8 hov-cl1 trans-04">
+				
+				Shopping Cart
+			</a>
+			
+		</div>
+	</div>
+
+</div>
+
+<div class="Container" style="margin-top:10px">
+	<div class="container">
+<form class="bg0 p-t-75 p-b-85">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-10 col-xl-7 m-lr-auto m-b-50">
+				<div class="m-l-25 m-r--38 m-lr-0-xl">
+					<div class="wrap-table-shopping-cart">
+						<table class="table-shopping-cart">
+							<tr class="table_head">
+										<th class="column-1" style="width: 15%;">Product</th>
+										<th class="column-2" style="width: 20%;"></th>
+								<th class="column-3" style="width: 15%;">Price</th>
+										<th class="column-4" style="width: 15%;">Quantity</th>
+										<th class="column-5" style="width: 20%;">Total</th>
+								<th class="column-6" style="width: 15%;"></th>
+							</tr>
+									
+
+					        @foreach (var item in Model )
+                            {
+							<tr class="table_row">
+									
+
+								<td class="column-1">
+									<div class="how-itemcart1" >
+
+										<img src="@Url.Content("/images/" + item.Product.ImagePath)" alt="IMG">
+									</div>
+								</td>
+							   
+								<td class="column-2"> @item.Product.Productname</td>
+											
+								<td class="column-3">
+												@{
+													var regularPrice = item.Product.Price;
+													var salePrice = regularPrice; 
+
+													if (item.Product.Sale.HasValue && item.Product.Sale > 0)
+													{
+														var discount = item.Product.Sale.Value / 100; 
+														salePrice = regularPrice - (regularPrice * discount); // calculate sale price
+													}
+
+													<text>$@salePrice</text>
+												}
+										  </td>
+						
+
+								<td class="column-4">
+									<div class="wrap-num-product flex-w m-l-auto m-r-0">
+										<div class="btn-num-product-down cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-minus"></i>
+										</div>
+
+									<input name="quantity" id="quantity_@item.Shoppingcarts.Cartid" class="mtext-104 cl3 txt-center num-product" type="number" value="@item.Shoppingcarts.Quantity">
+
+										<div class="btn-num-product-up cl8 hov-btn3 trans-04 flex-c-m">
+											<i class="fs-16 zmdi zmdi-plus"></i>
+										</div>
+									</div>
+								</td>
+
+									<td class="column-5">
+																																														@{
+													var itemPrice = (item.Product.Sale.HasValue && item.Product.Sale > 0) ? salePrice : regularPrice;
+													var total = itemPrice * item.Shoppingcarts.Quantity; // calculate total price
+												}
+												$@total
+											</td>
+
+											<td class="column-6">
+												<button class="btn-remove" data-cartitemid="@item.Shoppingcarts.Cartid">
+													<i class="fa fa-trash-alt"></i>
+												</button>
+											</td>
+
+											
+						    </tr>
+						}	
+				</table>
+			</div>
+
+					<div class="flex-w flex-sb-m bor15 p-t-18 p-b-15 p-lr-40 p-lr-15-sm">
+								<div class="flex-w flex-m m-r-20 m-tb-5">
+									<input class="stext-104 cl2 plh4 size-117 bor13 p-lr-20 m-r-10 m-tb-5" type="text" name="couponCode" placeholder="Coupon Code">
+									<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer" id="applyCoupon">
+										Apply coupon
+									</div>
+								</div>
+@*								<div id="couponDetails"> </div>
+*@
+
+							@*	<div class="flex-c-m stext-101 cl2 size-118 bg8 bor13 hov-btn3 p-lr-15 trans-04 pointer" id="updateCart">
+									Update Cart
+								</div>
+*@
+					</div>
+				</div>
+			</div>
+
+			<div class="col-sm-10 col-lg-7 col-xl-5 m-lr-auto m-b-50">
+				<div class="bor10 p-lr-40 p-t-30 p-b-40 m-l-63 m-r-40 m-lr-0-xl p-lr-15-sm">
+					<h4 class="mtext-109 cl2 p-b-30">
+						Cart Totals
+					</h4>
+
+					<div class="flex-w flex-t bor12 p-b-13">
+					<div class="size-208"> </div>
+</div>
+
+
+								<div class="flex-w flex-t p-t-27 p-b-33">
+									<div class="size-208">
+										<span class="mtext-101 cl2">
+											Total:
+										</span>
+									</div>
+
+									<div class="size-209 p-t-1" id="total">
+										<span class="mtext-110 cl2" style="margin-left: 40px;">
+											$@ViewBag.Subtotal
+										</span>
+									</div>
+								</div>
+
+
+							<a class="flex-c-m stext-101 cl0 size-116 bg3 bor14 hov-btn3 p-lr-15 trans-04 pointer asp-controller="Shoppingcarts" asp-action="Checkout">Proceed to Checkout </a>
+						</div>
+			</div>
+		</div>
+	</div>
+</form>
+
+
+					</div></div>
+
+
+<script>
+	$(document).ready(function () {
+		var oldSubtotal = parseFloat("@ViewBag.Subtotal");
+
+		$("#applyCoupon").click(function () {
+			var couponCode = $("input[name='couponCode']").val();
+			$.ajax({
+				type: "POST",
+				url: "/ShoppingCarts/ApplyCoupon",
+				data: { couponCode: couponCode },
+				success: function (data) {
+					// Update the display area with coupon details and discount.
+					$("#couponDetails").text(data.details);
+					$("#discountAmount").text(data.discount);
+
+					// Update the stored old subtotal
+					oldSubtotal = data.newSubtotal;
+
+					// Update the subtotal and total with the new values.
+					$("#subtotal").text('$' + data.newSubtotal.toFixed(2));
+					$("#total").text('$' + data.newSubtotal.toFixed(2));
+				},
+				error: function () {
+					alert("Coupon is not valid.");
+				}
+			});
+		});
+	});
+
+	$(document).ready(function () {
+		$("input[name='quantity']").change(function () {
+			var cartItemId = $(this).data('cartitemid');
+			var newQuantity = $(this).val();
+
+			$.ajax({
+				type: "POST",
+				url: "/Shoppingcarts/UpdateQuantity",
+				data: { cartItemId: cartItemId, newQuantity: newQuantity },
+				success: function (data) {
+					if (data.success) {
+						// Update the subtotal and total based on data.newSubtotal
+						// You can also update any other elements on your page that need to reflect the changes.
+						$("#subtotal").text('$' + data.newSubtotal.toFixed(2));
+						$("#total").text('$' + data.newSubtotal.toFixed(2));
+					} else {
+						alert("An error occurred while updating quantity: " + data.message);
+					}
+				},
+				error: function () {
+					alert("An error occurred while updating quantity.");
+				}
+			});
+		});
+
+		$(".btn-remove").click(function () {
+			var cartItemId = $(this).data('cartitemid');
+
+			$.ajax({
+				type: "POST",
+				url: "/Shoppingcarts/DeleteItem",
+				data: { cartItemId: cartItemId },
+				success: function (data) {
+					if (data.success) {
+						// Remove the item's row from the table
+						$(this).closest('tr').remove();
+
+						// Update the subtotal and total based on data.newSubtotal
+						$("#subtotal").text('$' + data.newSubtotal.toFixed(2));
+						$("#total").text('$' + data.newSubtotal.toFixed(2));
+					} else {
+						alert("An error occurred while removing the item: " + data.message);
+					}
+				},
+				error: function () {
+					alert("An error occurred while removing the item.");
+				}
+			});
+		});
+	});
+</script>
+
+
+
+	
+
+@functions {
+	decimal CalculatePriceAfterSale(decimal regularPrice, decimal salePercentage)
+	{
+		if (salePercentage > 0)
+		{
+			var discount = salePercentage / 100; // Convert percentage to decimal
+			return regularPrice - (regularPrice * discount); // Calculate the sale price
+		}
+
+		return regularPrice; // If there's no sale, return the regular price
+	}
+}
+
+
+
+	

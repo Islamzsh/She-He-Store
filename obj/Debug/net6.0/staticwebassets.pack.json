@@ -1,0 +1,3541 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\She&He_Store.bundle.scp.css",
+      "PackagePath": "staticwebassets\\She&He_Store.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\baguetteBox.min.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\baguetteBox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap-select.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap-select.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\calendar.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\calendar.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\calendar.min.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\calendar.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\color_2.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\color_2.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\custom.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\custom.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\flaticon.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\jquery.fancybox.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\jquery.fancybox.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\css\\semantic.min.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\css\\semantic.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\Flaticon.eot",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\Flaticon.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\Flaticon.svg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\Flaticon.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\Flaticon.ttf",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\Flaticon.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\Flaticon.woff",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\Flaticon.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\_flaticon.scss",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\_flaticon.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\flaticon.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\flaticon.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\flaticon.html",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\flaticon.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\landing_page\\stack-of-three-black-hot-stones-spa-salon-vector-16122479.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\landing_page\\stack-of-three-black-hot-stones-spa-salon-vector-16122479.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\american-express.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\american-express.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\bg1.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\bg1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\error.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\error.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g1.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g10.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g11.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g12.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g13.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g14.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g15.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g16.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g2.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g3.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g4.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g5.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g6.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g7.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g8.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\g9.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\g9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\login_image.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\login_image.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\map_icon.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\map_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\mastercard.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\mastercard.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\msg1.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\msg1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\msg2.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\msg2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\msg3.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\msg3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\msg4.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\msg4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\msg5.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\msg5.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\pattern.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\pattern.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\pattern_h.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\pattern_h.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\paypal.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\user_img.jpg",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\user_img.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\layout_img\\visa.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\layout_img\\visa.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\logo\\logo.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\logo\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\logo\\logo_black.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\logo\\logo_black.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\logo\\logo_icon.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\logo\\logo_icon.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\images\\logo\\mylogo0.png",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\images\\logo\\mylogo0.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\Chart.bundle.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\Chart.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\Chart.bundle.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\Chart.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\Chart.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\Chart.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\Chart.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\Chart.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\analyser.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\analyser.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\animate.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\animate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap-select.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap-select.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\calendar.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\calendar.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\calendar.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\calendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\chart_custom_style1.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\chart_custom_style1.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\chart_custom_style2.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\chart_custom_style2.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\custom.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\custom.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\custom_chart.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\custom_chart.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\jquery.fancybox.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\jquery.fancybox.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\jquery.fancybox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\jquery.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\semantic.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\semantic.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\settings.html",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\settings.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\js\\utils.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\js\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\.DS_Store",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\.DS_Store"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-3d.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-3d.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-animation.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-animation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-api-annotations.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-api-annotations.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-api-rules.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-api-rules.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-api.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-api.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-area.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-area.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-area3d.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-area3d.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-boxplot.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-boxplot.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-bubble.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-bubble.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-bubblepie.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-bubblepie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-calendar.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-calendar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-chord.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-chord.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-core.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-core.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-csv.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-csv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-debug.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-debug.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-dragging.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-dragging.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-errorbars.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-errorbars.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-export.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-export.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-gauge.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-gauge.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-grid.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-grid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-guide.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-guide.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-hbar.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-hbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-hbar3d.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-hbar3d.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-hbubble.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-hbubble.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-hbullet.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-hbullet.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-hfunnel.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-hfunnel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-history.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-history.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-hscatter.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-hscatter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-legend.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-legend.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-line.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-line.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-line3d.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-line3d.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-afg.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-afg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ago.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ago.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-alb.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-alb.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-and.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-and.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-are.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-are.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-arg.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-arg.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-arm.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-arm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-aus.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-aus.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-aut.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-aut.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-aze.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-aze.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-bdi.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-bdi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-bel.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-bel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ben.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ben.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-bfa.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-bfa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-bgr.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-bgr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-bih.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-bih.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-blr.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-blr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-bol.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-bol.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-bra.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-bra.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-brn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-brn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-btn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-btn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-bwa.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-bwa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-caf.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-caf.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-can.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-can.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-che.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-che.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-chl.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-chl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-chn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-chn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-civ.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-civ.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-cmr.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-cmr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-cod.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-cod.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-cog.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-cog.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-col.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-col.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-cri.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-cri.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-cub.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-cub.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-cyp.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-cyp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-cze.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-cze.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-deu.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-deu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-dnk.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-dnk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ecu.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ecu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-egy.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-egy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-esp.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-esp.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-espL2.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-espL2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-est.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-est.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-eth.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-eth.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-fin.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-fin.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-fra.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-fra.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-fraL2.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-fraL2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-gab.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-gab.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-gbr.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-gbr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-gbrL2.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-gbrL2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-geojson.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-geojson.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-gha.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-gha.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-gmb.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-gmb.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-gnb.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-gnb.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-grc.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-grc.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-gtm.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-gtm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-guf.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-guf.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-guy.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-guy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-hrv.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-hrv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-hun.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-hun.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ind.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ind.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-irl.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-irl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-irn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-irn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-isl.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-isl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-isr.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-isr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ita.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ita.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-jpn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-jpn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-kaz.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-kaz.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ken.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ken.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-kor.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-kor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-kwt.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-kwt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-lao.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-lao.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-lbr.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-lbr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-lie.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-lie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ltu.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ltu.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-lux.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-lux.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-lva.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-lva.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-mda.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-mda.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-mex.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-mex.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-mkd.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-mkd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-mne.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-mne.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-moz.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-moz.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-nam.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-nam.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ncl.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ncl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-nga.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-nga.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-nld.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-nld.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-nor.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-nor.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-nzl.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-nzl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-omn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-omn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-pak.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-pak.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-pan.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-pan.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-per.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-per.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-phl.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-phl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-png.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-png.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-pol.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-pol.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-prt.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-prt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-qat.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-qat.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-rou.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-rou.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-rus.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-rus.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-rwa.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-rwa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-sen.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-sen.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-slv.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-slv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-srb.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-srb.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-sur.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-sur.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-svk.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-svk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-svn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-svn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-swe.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-swe.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-tha.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-tha.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-tjk.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-tjk.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-topojson.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-topojson.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-tun.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-tun.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-tur.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-tur.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-twn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-twn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-uga.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-uga.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ukr.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ukr.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ury.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ury.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ak.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ak.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_al.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_al.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ar.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_az.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_az.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ca.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ca.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_co.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_co.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ct.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ct.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_dc.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_dc.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_de.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_de.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_fl.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_fl.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ga.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ga.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_hi.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_hi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ia.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ia.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_id.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_id.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_il.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_il.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_in.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_in.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ks.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ks.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ky.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ky.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_la.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_la.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ma.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ma.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_md.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_md.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_me.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_me.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_mi.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_mi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_mn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_mn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_mo.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_mo.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ms.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ms.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_mt.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_mt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nc.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nc.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nd.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ne.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ne.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nh.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nh.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nj.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nj.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nm.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nv.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_nv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ny.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ny.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_oh.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_oh.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ok.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ok.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_or.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_or.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_pa.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_pa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ri.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ri.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_sc.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_sc.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_sd.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_sd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_tn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_tn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_tx.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_tx.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ut.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_ut.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_va.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_va.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_vt.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_vt.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_wa.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_wa.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_wi.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_wi.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_wv.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_wv.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-usa_wy.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-usa_wy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-uzb.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-uzb.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-ven.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-ven.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-vnm.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-vnm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-world-continents.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-world-continents.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-world-countries.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-world-countries.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-yem.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-yem.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-zaf.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-zaf.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-zmb.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-zmb.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps-zwe.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps-zwe.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-maps.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-maps.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-navpie.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-navpie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-nestedpie.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-nestedpie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-objects.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-objects.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-pareto.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-pareto.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-patterns.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-patterns.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-piano.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-piano.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-pie.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-pie.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-pie3d.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-pie3d.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-populationpyramid.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-populationpyramid.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-preview.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-preview.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-r.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-r.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-radar.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-radar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-range.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-range.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-rankflow.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-rankflow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-refresh.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-refresh.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-scalemarkers.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-scalemarkers.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-scatter.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-scatter.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-scroll.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-scroll.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-selection-tool.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-selection-tool.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-selection.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-selection.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-stock.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-stock.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-stream.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-stream.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-svg-simple-selection.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-svg-simple-selection.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-toolbar3d.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-toolbar3d.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-tooltip.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-tooltip.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-treemap.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-treemap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-varea.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-varea.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-vbar.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-vbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-vbar3d.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-vbar3d.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-vbullet.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-vbullet.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-venn.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-venn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-vfunnel.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-vfunnel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-vline.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-vline.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-waterfall.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-waterfall.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-wordcloud.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-wordcloud.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-xy.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-xy.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-yx.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-yx.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\modules\\zingchart-zoom.min.js",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\modules\\zingchart-zoom.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\AdminDashboardAssets\\style.css",
+      "PackagePath": "staticwebassets\\AdminDashboardAssets\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\css\\style.css",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\css\\style.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\css\\style.scss",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\css\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\material-design-iconic-font\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\fonts\\poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\fonts\\poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\images\\background.jpeg",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\images\\background.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\images\\bg-registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\images\\bg-registration-form-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\images\\imagelogin.jpg",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\images\\imagelogin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\images\\login.png",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\images\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\images\\login2.jpg",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\images\\login2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\LoginAndRegisterAssets\\images\\registration-form-1.jpg",
+      "PackagePath": "staticwebassets\\LoginAndRegisterAssets\\images\\registration-form-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\css\\util.css",
+      "PackagePath": "staticwebassets\\css\\util.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\Montserrat-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\Montserrat-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Montserrat\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\Montserrat\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\PlayfairDisplay\\OFL.txt",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay\\OFL.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\PlayfairDisplay\\PlayfairDisplay-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay\\PlayfairDisplay-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\PlayfairDisplay\\PlayfairDisplay-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay\\PlayfairDisplay-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\PlayfairDisplay\\PlayfairDisplay-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay\\PlayfairDisplay-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\PlayfairDisplay\\PlayfairDisplay-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay\\PlayfairDisplay-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\PlayfairDisplay\\PlayfairDisplay-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay\\PlayfairDisplay-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\PlayfairDisplay\\PlayfairDisplay-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\PlayfairDisplay\\PlayfairDisplay-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-Black.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-Black.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-BlackItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-Bold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-BoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-ExtraBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-ExtraBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-ExtraLight.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-ExtraLightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-Italic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-Light.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-Light.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-LightItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-Medium.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-MediumItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-Regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-SemiBold.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-SemiBoldItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-Thin.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\Poppins\\Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets\\fonts\\Poppins\\Poppins-ThinItalic.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\HELP-US-OUT.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\css\\font-awesome.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\animated.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\animated.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\bordered-pulled.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\core.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\core.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\fixed-width.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\font-awesome.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\icons.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\icons.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\larger.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\larger.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\list.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\list.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\mixins.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\mixins.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\path.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\path.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\rotated-flipped.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\screen-reader.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\stacked.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\stacked.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\less\\variables.less",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\less\\variables.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_animated.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_bordered-pulled.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_core.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_core.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_fixed-width.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_icons.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_larger.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_list.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_list.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_path.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_path.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_rotated-flipped.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_screen-reader.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_stacked.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss",
+      "PackagePath": "staticwebassets\\fonts\\font-awesome-4.7.0\\scss\\font-awesome.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\iconic\\css\\material-design-iconic-font.css",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\css\\material-design-iconic-font.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\iconic\\css\\material-design-iconic-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\css\\material-design-iconic-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2",
+      "PackagePath": "staticwebassets\\fonts\\iconic\\fonts\\Material-Design-Iconic-Font.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.eot",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.svg",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.ttf",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff2",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\WebFont\\Linearicons-Free.woff2"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\fonts\\linearicons-v1.0.0\\icon-font.min.css",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-v1.0.0\\icon-font.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\0130d334-00a2-4797-ba2c-f732e3189ed7_p20.png",
+      "PackagePath": "staticwebassets\\images\\0130d334-00a2-4797-ba2c-f732e3189ed7_p20.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\01426599-d3c1-45e0-ba6c-6153ecce5407_p24.png",
+      "PackagePath": "staticwebassets\\images\\01426599-d3c1-45e0-ba6c-6153ecce5407_p24.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\03bfca07-881c-4232-b821-9049f182d9f4_category2.png",
+      "PackagePath": "staticwebassets\\images\\03bfca07-881c-4232-b821-9049f182d9f4_category2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\052011d0-e0d5-4c00-8955-c1b82efda6a5_p11.png",
+      "PackagePath": "staticwebassets\\images\\052011d0-e0d5-4c00-8955-c1b82efda6a5_p11.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\05d68090-d9d2-413e-bcbb-8e69aba8b35f_banner-02.jpg",
+      "PackagePath": "staticwebassets\\images\\05d68090-d9d2-413e-bcbb-8e69aba8b35f_banner-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\06e56f69-11b3-409c-a4f4-d7d12dc4d694_p14.png",
+      "PackagePath": "staticwebassets\\images\\06e56f69-11b3-409c-a4f4-d7d12dc4d694_p14.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\080cc285-8dfe-42b1-9e59-60cd373769c9_pe1.png",
+      "PackagePath": "staticwebassets\\images\\080cc285-8dfe-42b1-9e59-60cd373769c9_pe1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\095cd7c1-bcfe-475c-87d1-ee893b035ed5_p39.png",
+      "PackagePath": "staticwebassets\\images\\095cd7c1-bcfe-475c-87d1-ee893b035ed5_p39.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\096f44af-37c6-4f71-8b8d-710aad9e7e8d_p35.png",
+      "PackagePath": "staticwebassets\\images\\096f44af-37c6-4f71-8b8d-710aad9e7e8d_p35.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\0a198f56-e3ca-467a-995b-59dc1266d47c_p3.png",
+      "PackagePath": "staticwebassets\\images\\0a198f56-e3ca-467a-995b-59dc1266d47c_p3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\0a4616f6-8ffc-4c03-b3a3-dd75f21e5339_bodycategory.png",
+      "PackagePath": "staticwebassets\\images\\0a4616f6-8ffc-4c03-b3a3-dd75f21e5339_bodycategory.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\106014ba-4925-432f-abd6-e3dd7e48ead2_p12.png",
+      "PackagePath": "staticwebassets\\images\\106014ba-4925-432f-abd6-e3dd7e48ead2_p12.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\127ce682-f976-4997-ad4a-6d87085e4e31_h7.png",
+      "PackagePath": "staticwebassets\\images\\127ce682-f976-4997-ad4a-6d87085e4e31_h7.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\153ed357-a027-458c-bded-36c502c92f0d_h7.png",
+      "PackagePath": "staticwebassets\\images\\153ed357-a027-458c-bded-36c502c92f0d_h7.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\1584c05c-91a3-413d-a0a5-fee70932bca0_p18.png",
+      "PackagePath": "staticwebassets\\images\\1584c05c-91a3-413d-a0a5-fee70932bca0_p18.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\198d58b4-9bda-451a-87c3-293e980cd07a_haircare.png",
+      "PackagePath": "staticwebassets\\images\\198d58b4-9bda-451a-87c3-293e980cd07a_haircare.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\1bcbd327-e653-4eff-abc5-4b96dfbca655_pic.png",
+      "PackagePath": "staticwebassets\\images\\1bcbd327-e653-4eff-abc5-4b96dfbca655_pic.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\1dc192e4-e835-4583-9329-cafb20b3a988_p19.png",
+      "PackagePath": "staticwebassets\\images\\1dc192e4-e835-4583-9329-cafb20b3a988_p19.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\1e2e9fe2-6e89-4dc3-a2f2-53a239bff41f_p30.png",
+      "PackagePath": "staticwebassets\\images\\1e2e9fe2-6e89-4dc3-a2f2-53a239bff41f_p30.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\221bcd48-4709-4562-87a7-ccf2b7e96683_perfume2.png",
+      "PackagePath": "staticwebassets\\images\\221bcd48-4709-4562-87a7-ccf2b7e96683_perfume2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\24fd04be-2cc0-4742-8da8-3bf4a00d5efb_p8.png",
+      "PackagePath": "staticwebassets\\images\\24fd04be-2cc0-4742-8da8-3bf4a00d5efb_p8.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\264672a2-0bcc-4427-9811-797ff93f8bb7_p19.png",
+      "PackagePath": "staticwebassets\\images\\264672a2-0bcc-4427-9811-797ff93f8bb7_p19.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\26bd99bb-9bb1-42fc-9a8f-ecba3a3b65c5_p4.png",
+      "PackagePath": "staticwebassets\\images\\26bd99bb-9bb1-42fc-9a8f-ecba3a3b65c5_p4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\2b87715e-6c5e-4444-8b87-1c4c03ef260c_p34.png",
+      "PackagePath": "staticwebassets\\images\\2b87715e-6c5e-4444-8b87-1c4c03ef260c_p34.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\2cd4cfb6-166c-4e1d-9bd4-8876c15fb14d_category1.png",
+      "PackagePath": "staticwebassets\\images\\2cd4cfb6-166c-4e1d-9bd4-8876c15fb14d_category1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\2e27bc47-9c94-47f2-b97d-1e0396aa5579_h6.png",
+      "PackagePath": "staticwebassets\\images\\2e27bc47-9c94-47f2-b97d-1e0396aa5579_h6.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\2f2aea72-f284-4243-86c2-bcf929e2b065_pic.jpg",
+      "PackagePath": "staticwebassets\\images\\2f2aea72-f284-4243-86c2-bcf929e2b065_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\319f5df7-1b6d-4add-8971-e2696192dac3_perfume.png",
+      "PackagePath": "staticwebassets\\images\\319f5df7-1b6d-4add-8971-e2696192dac3_perfume.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\32e9ac7a-ebfc-4a41-8e57-525c0519fe36_baby6.png",
+      "PackagePath": "staticwebassets\\images\\32e9ac7a-ebfc-4a41-8e57-525c0519fe36_baby6.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\33037083-da5d-494c-9975-cd99c49f0ac6_profilepic.jpg",
+      "PackagePath": "staticwebassets\\images\\33037083-da5d-494c-9975-cd99c49f0ac6_profilepic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\381ebbec-7d8b-403e-9903-3099a2263819_profile.jpg",
+      "PackagePath": "staticwebassets\\images\\381ebbec-7d8b-403e-9903-3099a2263819_profile.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\387edafd-4e14-4947-a804-1030678b56c7_moiad3.png",
+      "PackagePath": "staticwebassets\\images\\387edafd-4e14-4947-a804-1030678b56c7_moiad3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\399698f4-8e5b-433d-8647-16b2455e0ba5_serum.jpeg",
+      "PackagePath": "staticwebassets\\images\\399698f4-8e5b-433d-8647-16b2455e0ba5_serum.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\3dabe421-f8f6-4783-a56b-dbaee624bce9_moiad1.jpg",
+      "PackagePath": "staticwebassets\\images\\3dabe421-f8f6-4783-a56b-dbaee624bce9_moiad1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\3dc5d668-a04a-4e9f-a3a8-80daf3f94b77_p28.png",
+      "PackagePath": "staticwebassets\\images\\3dc5d668-a04a-4e9f-a3a8-80daf3f94b77_p28.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\3e32c941-664a-4666-badc-72e85bfe1e53_p36.png",
+      "PackagePath": "staticwebassets\\images\\3e32c941-664a-4666-badc-72e85bfe1e53_p36.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\41fff006-828d-4fd4-a0d7-7c56383f0ef8_baby5.png",
+      "PackagePath": "staticwebassets\\images\\41fff006-828d-4fd4-a0d7-7c56383f0ef8_baby5.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\427c3a46-7c83-4453-892d-758be95ef50d_baby.png",
+      "PackagePath": "staticwebassets\\images\\427c3a46-7c83-4453-892d-758be95ef50d_baby.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\4302dc5d-052d-4749-bf08-bdded3df9625_p39.png",
+      "PackagePath": "staticwebassets\\images\\4302dc5d-052d-4749-bf08-bdded3df9625_p39.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\4320345e-715b-4d75-9e65-ea630f1b1290_pic.png",
+      "PackagePath": "staticwebassets\\images\\4320345e-715b-4d75-9e65-ea630f1b1290_pic.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\45e98e6e-7cc3-428b-852b-88fc3d88de92_imagelogin.jpg",
+      "PackagePath": "staticwebassets\\images\\45e98e6e-7cc3-428b-852b-88fc3d88de92_imagelogin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\4695460c-6734-4f63-b158-4d5635f6869b_baby9.png",
+      "PackagePath": "staticwebassets\\images\\4695460c-6734-4f63-b158-4d5635f6869b_baby9.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\475ea611-4149-4306-b95f-e0dee167d0a3_p4.png",
+      "PackagePath": "staticwebassets\\images\\475ea611-4149-4306-b95f-e0dee167d0a3_p4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\47916818-8aae-4d68-8424-5dab91fa8398_p13.png",
+      "PackagePath": "staticwebassets\\images\\47916818-8aae-4d68-8424-5dab91fa8398_p13.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\496e1f68-81b8-465c-a209-d397c8541789_baby2.png",
+      "PackagePath": "staticwebassets\\images\\496e1f68-81b8-465c-a209-d397c8541789_baby2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\4aa62fe7-6f1c-4e87-bde4-7cc092edd8f1_p21.png",
+      "PackagePath": "staticwebassets\\images\\4aa62fe7-6f1c-4e87-bde4-7cc092edd8f1_p21.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\4c14f7c8-813b-4784-94de-5a903846099b_p26.png",
+      "PackagePath": "staticwebassets\\images\\4c14f7c8-813b-4784-94de-5a903846099b_p26.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\4c5862b8-7bd3-4b38-9b34-0189dd3131e4_p32.png",
+      "PackagePath": "staticwebassets\\images\\4c5862b8-7bd3-4b38-9b34-0189dd3131e4_p32.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\4e93203f-bb89-466b-b961-84abf41cfa88_baby2.png",
+      "PackagePath": "staticwebassets\\images\\4e93203f-bb89-466b-b961-84abf41cfa88_baby2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\4f585279-8ee7-4850-ae69-1bf1658a2acb_p22.png",
+      "PackagePath": "staticwebassets\\images\\4f585279-8ee7-4850-ae69-1bf1658a2acb_p22.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\5089cd6b-69e1-47a2-9362-08965460e397_h4.png",
+      "PackagePath": "staticwebassets\\images\\5089cd6b-69e1-47a2-9362-08965460e397_h4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\50c47242-d943-4834-9598-aff917d4d13b_p7.png",
+      "PackagePath": "staticwebassets\\images\\50c47242-d943-4834-9598-aff917d4d13b_p7.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\51349c2b-bc83-48fd-8117-796b8c59bbd5_p20.png",
+      "PackagePath": "staticwebassets\\images\\51349c2b-bc83-48fd-8117-796b8c59bbd5_p20.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\52df72b5-cfa2-4ec0-af98-9f5bae496696_h7.png",
+      "PackagePath": "staticwebassets\\images\\52df72b5-cfa2-4ec0-af98-9f5bae496696_h7.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\53664f5c-27f2-4eb6-9fca-b60fd6676b74_2.png",
+      "PackagePath": "staticwebassets\\images\\53664f5c-27f2-4eb6-9fca-b60fd6676b74_2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\5383d80e-5431-4471-b1f2-7f327eccd32d_baby2.png",
+      "PackagePath": "staticwebassets\\images\\5383d80e-5431-4471-b1f2-7f327eccd32d_baby2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\54ccd32b-caf3-44ea-a8e5-66b10e6e8906_category3.png",
+      "PackagePath": "staticwebassets\\images\\54ccd32b-caf3-44ea-a8e5-66b10e6e8906_category3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\5597ee44-697e-4441-8581-28ead3bfc5b1_p42.png",
+      "PackagePath": "staticwebassets\\images\\5597ee44-697e-4441-8581-28ead3bfc5b1_p42.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\568c202a-c4fb-411b-8d64-6b0b6757b0ab_p54.png",
+      "PackagePath": "staticwebassets\\images\\568c202a-c4fb-411b-8d64-6b0b6757b0ab_p54.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\57375039-4661-4f81-8cd1-3f7244041bbb_6.png",
+      "PackagePath": "staticwebassets\\images\\57375039-4661-4f81-8cd1-3f7244041bbb_6.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\59876a84-8eda-4adf-926d-05ef44b048e9_p51.png",
+      "PackagePath": "staticwebassets\\images\\59876a84-8eda-4adf-926d-05ef44b048e9_p51.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\5e618536-0833-49f8-8281-997c7afa40ef_skinbody.png",
+      "PackagePath": "staticwebassets\\images\\5e618536-0833-49f8-8281-997c7afa40ef_skinbody.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\5ed51621-38f1-4567-a5f4-e0d3e0aa2131_moiad1.jpg",
+      "PackagePath": "staticwebassets\\images\\5ed51621-38f1-4567-a5f4-e0d3e0aa2131_moiad1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\5f88d641-6a3b-4ef3-a2b3-65e7e33525b8_skincarecategory.png",
+      "PackagePath": "staticwebassets\\images\\5f88d641-6a3b-4ef3-a2b3-65e7e33525b8_skincarecategory.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\5f9cb0a8-d849-47bb-a1e5-5de14164e7d5_p22.png",
+      "PackagePath": "staticwebassets\\images\\5f9cb0a8-d849-47bb-a1e5-5de14164e7d5_p22.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\6059397d-2aa4-4620-8c07-50627d8c5494_p38.png",
+      "PackagePath": "staticwebassets\\images\\6059397d-2aa4-4620-8c07-50627d8c5494_p38.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\61087b84-971e-429e-b439-291b99e05359_baby4.png",
+      "PackagePath": "staticwebassets\\images\\61087b84-971e-429e-b439-291b99e05359_baby4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\613feacb-ef2e-4fc1-a4ad-6fab86679f3b_product4.jpg",
+      "PackagePath": "staticwebassets\\images\\613feacb-ef2e-4fc1-a4ad-6fab86679f3b_product4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\615583f8-5c82-4698-b2b1-746c749e27c0_h2.png",
+      "PackagePath": "staticwebassets\\images\\615583f8-5c82-4698-b2b1-746c749e27c0_h2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\63cc4df7-3ca4-4502-89cf-b42b8b36cc19_pic.jpg",
+      "PackagePath": "staticwebassets\\images\\63cc4df7-3ca4-4502-89cf-b42b8b36cc19_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\6a915e3c-f131-4a92-8a4e-1a02a5c843ad_p16.png",
+      "PackagePath": "staticwebassets\\images\\6a915e3c-f131-4a92-8a4e-1a02a5c843ad_p16.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\72d017d2-18b7-47b4-89fd-f50c2fa9c2db_4.png",
+      "PackagePath": "staticwebassets\\images\\72d017d2-18b7-47b4-89fd-f50c2fa9c2db_4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\730aeb64-911a-47d0-9d22-183d83993625_5946.jpg",
+      "PackagePath": "staticwebassets\\images\\730aeb64-911a-47d0-9d22-183d83993625_5946.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\7699e49f-8d30-45e2-a9fc-79d995f6969c_p3.png",
+      "PackagePath": "staticwebassets\\images\\7699e49f-8d30-45e2-a9fc-79d995f6969c_p3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\77c8a616-c1cb-4768-b44b-6c29457da60e_p47.png",
+      "PackagePath": "staticwebassets\\images\\77c8a616-c1cb-4768-b44b-6c29457da60e_p47.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\7894a94c-fcfd-40b4-8789-5869ee9ea1a9_1.png",
+      "PackagePath": "staticwebassets\\images\\7894a94c-fcfd-40b4-8789-5869ee9ea1a9_1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\795d9401-5adf-4bff-b142-f216dd2c2081_pe2.png",
+      "PackagePath": "staticwebassets\\images\\795d9401-5adf-4bff-b142-f216dd2c2081_pe2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\7ba4148e-50b9-41a7-ac65-735fc3ca14a8_p38.png",
+      "PackagePath": "staticwebassets\\images\\7ba4148e-50b9-41a7-ac65-735fc3ca14a8_p38.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\7bc06680-af7b-4288-a18d-852d39bab9eb_Screenshot 2023-10-16 232432.png",
+      "PackagePath": "staticwebassets\\images\\7bc06680-af7b-4288-a18d-852d39bab9eb_Screenshot 2023-10-16 232432.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\7c1c521c-7649-41b8-9c07-4388ab6523b5_p44.png",
+      "PackagePath": "staticwebassets\\images\\7c1c521c-7649-41b8-9c07-4388ab6523b5_p44.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\7c9f3367-3fa7-484d-bd6a-c9647e51f0c6_product5.jpg",
+      "PackagePath": "staticwebassets\\images\\7c9f3367-3fa7-484d-bd6a-c9647e51f0c6_product5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\7f1d5d11-2ce2-4c5f-b70c-fae79a8ffefc_pic.jpg",
+      "PackagePath": "staticwebassets\\images\\7f1d5d11-2ce2-4c5f-b70c-fae79a8ffefc_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\8238dfcc-4b9b-420e-b5ad-879387609aea_p40.png",
+      "PackagePath": "staticwebassets\\images\\8238dfcc-4b9b-420e-b5ad-879387609aea_p40.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\82538f4b-b2a8-415d-847f-f3a96ea25312_p37.png",
+      "PackagePath": "staticwebassets\\images\\82538f4b-b2a8-415d-847f-f3a96ea25312_p37.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\844877ae-6175-4dfc-aa8e-4174033e5a5f_moiad.avif",
+      "PackagePath": "staticwebassets\\images\\844877ae-6175-4dfc-aa8e-4174033e5a5f_moiad.avif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\8b7202b2-0c2c-4131-a2ed-ba64ed436989_bo.png",
+      "PackagePath": "staticwebassets\\images\\8b7202b2-0c2c-4131-a2ed-ba64ed436989_bo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\8c85d6dd-b013-4ca8-962d-e672309fef98_p2.jpg",
+      "PackagePath": "staticwebassets\\images\\8c85d6dd-b013-4ca8-962d-e672309fef98_p2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\8f93e3f4-c837-46c5-a6d5-cec326de5df8_p6.png",
+      "PackagePath": "staticwebassets\\images\\8f93e3f4-c837-46c5-a6d5-cec326de5df8_p6.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\90a33da2-55a1-45cb-a88f-47b2620b3f9f_mesk.jpg",
+      "PackagePath": "staticwebassets\\images\\90a33da2-55a1-45cb-a88f-47b2620b3f9f_mesk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\98580d56-bb69-4c26-ad82-84e188c75656_p41.png",
+      "PackagePath": "staticwebassets\\images\\98580d56-bb69-4c26-ad82-84e188c75656_p41.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\990af5b5-b088-4e15-a31a-281e899c93f1_baby.png",
+      "PackagePath": "staticwebassets\\images\\990af5b5-b088-4e15-a31a-281e899c93f1_baby.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\99776825-0391-40ae-a612-bd34485fc423_h2.png",
+      "PackagePath": "staticwebassets\\images\\99776825-0391-40ae-a612-bd34485fc423_h2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\99ce613e-961b-4a28-bbef-e3319c2d6128_h5.png",
+      "PackagePath": "staticwebassets\\images\\99ce613e-961b-4a28-bbef-e3319c2d6128_h5.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\99fa0ca2-4c5a-4a2c-a552-110dbb19f20d_kidsfashion.png",
+      "PackagePath": "staticwebassets\\images\\99fa0ca2-4c5a-4a2c-a552-110dbb19f20d_kidsfashion.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\99ffc628-010d-45a5-879c-8e33793a1ec9_p31.png",
+      "PackagePath": "staticwebassets\\images\\99ffc628-010d-45a5-879c-8e33793a1ec9_p31.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\9a7e5522-51da-420a-b2c9-12b96c259ec1_babycare.png",
+      "PackagePath": "staticwebassets\\images\\9a7e5522-51da-420a-b2c9-12b96c259ec1_babycare.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\9ac76a98-5276-4af7-96a9-930eb10b0e08_h8.png",
+      "PackagePath": "staticwebassets\\images\\9ac76a98-5276-4af7-96a9-930eb10b0e08_h8.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\9ad06bde-73fb-45eb-b0cc-39197709db12_product2.webp",
+      "PackagePath": "staticwebassets\\images\\9ad06bde-73fb-45eb-b0cc-39197709db12_product2.webp"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\9b85b1f9-dc00-4820-a29c-f6703201be58_p49.png",
+      "PackagePath": "staticwebassets\\images\\9b85b1f9-dc00-4820-a29c-f6703201be58_p49.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\9f317229-2130-44a9-a45a-9a65f8ae8756_p54.png",
+      "PackagePath": "staticwebassets\\images\\9f317229-2130-44a9-a45a-9a65f8ae8756_p54.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\9f35cdc6-4693-4ec6-b24d-f308f68b5e99_profilepic.jpg",
+      "PackagePath": "staticwebassets\\images\\9f35cdc6-4693-4ec6-b24d-f308f68b5e99_profilepic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\9f921128-88d8-4322-9dc7-9edd86c6ebf5_hair.png",
+      "PackagePath": "staticwebassets\\images\\9f921128-88d8-4322-9dc7-9edd86c6ebf5_hair.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\a091a515-71d5-470f-9c33-ec4761ec5a5a_p46.png",
+      "PackagePath": "staticwebassets\\images\\a091a515-71d5-470f-9c33-ec4761ec5a5a_p46.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\a158e18f-6a13-437a-8541-aefc85c74a54_baby1.png",
+      "PackagePath": "staticwebassets\\images\\a158e18f-6a13-437a-8541-aefc85c74a54_baby1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\a25e0c06-40f4-465a-b5ca-204debdab0f2_baby9.png",
+      "PackagePath": "staticwebassets\\images\\a25e0c06-40f4-465a-b5ca-204debdab0f2_baby9.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\a8507bc9-ca09-445b-9df5-97d946fb4901_pic.jpg",
+      "PackagePath": "staticwebassets\\images\\a8507bc9-ca09-445b-9df5-97d946fb4901_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\a8f22ffe-e947-4f08-9b39-baca52570902_p55.png",
+      "PackagePath": "staticwebassets\\images\\a8f22ffe-e947-4f08-9b39-baca52570902_p55.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\aaa7fbca-67d9-4058-b179-3d8bc8a5af70_p48.png",
+      "PackagePath": "staticwebassets\\images\\aaa7fbca-67d9-4058-b179-3d8bc8a5af70_p48.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\about-01.jpg",
+      "PackagePath": "staticwebassets\\images\\about-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\about-02.jpg",
+      "PackagePath": "staticwebassets\\images\\about-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\about2.jpeg",
+      "PackagePath": "staticwebassets\\images\\about2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\acac27a0-62b7-4560-a132-79cb641ebf46_h2.png",
+      "PackagePath": "staticwebassets\\images\\acac27a0-62b7-4560-a132-79cb641ebf46_h2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\af0d8093-d87b-4837-b970-106b38bfff30_p43.png",
+      "PackagePath": "staticwebassets\\images\\af0d8093-d87b-4837-b970-106b38bfff30_p43.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\af180ebc-9a83-4e2e-833c-3ceb5c72dfc8_p1.png",
+      "PackagePath": "staticwebassets\\images\\af180ebc-9a83-4e2e-833c-3ceb5c72dfc8_p1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\avatar-01.jpg",
+      "PackagePath": "staticwebassets\\images\\avatar-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\b.jpeg",
+      "PackagePath": "staticwebassets\\images\\b.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\b21c4a0e-bab6-4cc7-8fc4-94a388cb21b3_baby7.png",
+      "PackagePath": "staticwebassets\\images\\b21c4a0e-bab6-4cc7-8fc4-94a388cb21b3_baby7.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\b3.png",
+      "PackagePath": "staticwebassets\\images\\b3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\b4d15ff2-483d-482b-9b36-8184f1a7c2d9_baby9.png",
+      "PackagePath": "staticwebassets\\images\\b4d15ff2-483d-482b-9b36-8184f1a7c2d9_baby9.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\b62fb452-5dfc-4b07-8a02-c65917c8d451_baby2.png",
+      "PackagePath": "staticwebassets\\images\\b62fb452-5dfc-4b07-8a02-c65917c8d451_baby2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\b9d14b6d-98cb-4dbc-b642-72033cf36011_p17.png",
+      "PackagePath": "staticwebassets\\images\\b9d14b6d-98cb-4dbc-b642-72033cf36011_p17.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-01.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-02.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-03.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-04.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-05.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-06.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-07.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-08.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\banner-09.jpg",
+      "PackagePath": "staticwebassets\\images\\banner-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\bfddb7f6-4eea-4d6e-9b29-c7c2f4838245_category1.png",
+      "PackagePath": "staticwebassets\\images\\bfddb7f6-4eea-4d6e-9b29-c7c2f4838245_category1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\bg-01.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\bg-02.jpg",
+      "PackagePath": "staticwebassets\\images\\bg-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\bg2.jpg",
+      "PackagePath": "staticwebassets\\images\\bg2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\blog-01.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\blog-02.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\blog-03.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\blog-04.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\blog-05.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\blog-06.jpg",
+      "PackagePath": "staticwebassets\\images\\blog-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\c.jpeg",
+      "PackagePath": "staticwebassets\\images\\c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\c0a7d68d-e4cc-49c3-8278-f79ceb89f3e7_banner-03.jpg",
+      "PackagePath": "staticwebassets\\images\\c0a7d68d-e4cc-49c3-8278-f79ceb89f3e7_banner-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\c2a8b1fe-8acf-48bb-a5a1-25ae92223149_p45.png",
+      "PackagePath": "staticwebassets\\images\\c2a8b1fe-8acf-48bb-a5a1-25ae92223149_p45.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\c6d5355b-eca8-42cc-8c33-62dab3b06889_imagelogin.jpg",
+      "PackagePath": "staticwebassets\\images\\c6d5355b-eca8-42cc-8c33-62dab3b06889_imagelogin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\c7ae579d-ac49-4fc3-86a1-9cc4ca87882d_p54.png",
+      "PackagePath": "staticwebassets\\images\\c7ae579d-ac49-4fc3-86a1-9cc4ca87882d_p54.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\ca3dbc2b-7808-491d-90d6-68be894d6f1d_product3.jpg",
+      "PackagePath": "staticwebassets\\images\\ca3dbc2b-7808-491d-90d6-68be894d6f1d_product3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\ce7389db-c6de-459b-bd92-fed4e52f2885_p25.png",
+      "PackagePath": "staticwebassets\\images\\ce7389db-c6de-459b-bd92-fed4e52f2885_p25.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d0dd781a-219b-4970-a136-8e968144cf3e_p15.png",
+      "PackagePath": "staticwebassets\\images\\d0dd781a-219b-4970-a136-8e968144cf3e_p15.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d36b1f4e-5652-4708-b544-394eaece808d_pic.jpg",
+      "PackagePath": "staticwebassets\\images\\d36b1f4e-5652-4708-b544-394eaece808d_pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d3beb76b-bbd4-4038-ab24-6cbe7655584b_product-detail-03.jpg",
+      "PackagePath": "staticwebassets\\images\\d3beb76b-bbd4-4038-ab24-6cbe7655584b_product-detail-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d4eb3593-be8b-429d-b314-a223619c54a6_p17.png",
+      "PackagePath": "staticwebassets\\images\\d4eb3593-be8b-429d-b314-a223619c54a6_p17.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d593f708-9131-4ca2-8b05-6515414ee082_p10.png",
+      "PackagePath": "staticwebassets\\images\\d593f708-9131-4ca2-8b05-6515414ee082_p10.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d5ec59e9-209b-4c2f-bef7-c10f5772d701_p23.png",
+      "PackagePath": "staticwebassets\\images\\d5ec59e9-209b-4c2f-bef7-c10f5772d701_p23.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d6dc760a-1292-4bf8-b95c-8d312334c657_p17.png",
+      "PackagePath": "staticwebassets\\images\\d6dc760a-1292-4bf8-b95c-8d312334c657_p17.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d930f817-beb5-471f-8abc-b6e4be4f2add_h1.png",
+      "PackagePath": "staticwebassets\\images\\d930f817-beb5-471f-8abc-b6e4be4f2add_h1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\d961246a-6ff5-42fe-b14f-d598a3d29d16_banner-01.jpg",
+      "PackagePath": "staticwebassets\\images\\d961246a-6ff5-42fe-b14f-d598a3d29d16_banner-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\dec091ed-e2f5-4dca-98eb-10bc7a65b8d1_p53.png",
+      "PackagePath": "staticwebassets\\images\\dec091ed-e2f5-4dca-98eb-10bc7a65b8d1_p53.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\e2daa41f-213d-4a50-bc5a-bda8da5cb6bb_p1.png",
+      "PackagePath": "staticwebassets\\images\\e2daa41f-213d-4a50-bc5a-bda8da5cb6bb_p1.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\e3f66e2a-f35d-4ea3-b546-e7b9395bc77e_baby8.png",
+      "PackagePath": "staticwebassets\\images\\e3f66e2a-f35d-4ea3-b546-e7b9395bc77e_baby8.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\e49756b8-1885-4f87-a766-7119e156f513_h3.png",
+      "PackagePath": "staticwebassets\\images\\e49756b8-1885-4f87-a766-7119e156f513_h3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\e52ba054-67ec-48b9-a165-cc018855d307_product1.jpg",
+      "PackagePath": "staticwebassets\\images\\e52ba054-67ec-48b9-a165-cc018855d307_product1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\e5bc0778-fb43-415a-a2ae-265473d946d6_p26.png",
+      "PackagePath": "staticwebassets\\images\\e5bc0778-fb43-415a-a2ae-265473d946d6_p26.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\e6dc9ad4-6dd4-41e0-befe-5e3084febf8e_p19.png",
+      "PackagePath": "staticwebassets\\images\\e6dc9ad4-6dd4-41e0-befe-5e3084febf8e_p19.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\e7d29d8d-b868-41c8-8107-de125e6716fa_p2.png",
+      "PackagePath": "staticwebassets\\images\\e7d29d8d-b868-41c8-8107-de125e6716fa_p2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\ec93d87b-d606-4eaf-8b2c-565ba0ec684b_h4.png",
+      "PackagePath": "staticwebassets\\images\\ec93d87b-d606-4eaf-8b2c-565ba0ec684b_h4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\ee047f97-e335-448a-9390-fb8810e09bcc_pic2.jpg",
+      "PackagePath": "staticwebassets\\images\\ee047f97-e335-448a-9390-fb8810e09bcc_pic2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\ef7aba76-3682-4be7-b1d4-d9638f6f57bb_moiad3.png",
+      "PackagePath": "staticwebassets\\images\\ef7aba76-3682-4be7-b1d4-d9638f6f57bb_moiad3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f22e23d9-1d3e-4a9e-b37c-a39ba510b720_men.png",
+      "PackagePath": "staticwebassets\\images\\f22e23d9-1d3e-4a9e-b37c-a39ba510b720_men.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f2a96cec-c70e-4264-8a35-f32aa7970d3f_p5.png",
+      "PackagePath": "staticwebassets\\images\\f2a96cec-c70e-4264-8a35-f32aa7970d3f_p5.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f2af7edb-855a-4ea6-8574-7897ff1faadd_category6.png",
+      "PackagePath": "staticwebassets\\images\\f2af7edb-855a-4ea6-8574-7897ff1faadd_category6.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f2be4bcf-3934-4105-8354-dadbd1f326d6_6.png",
+      "PackagePath": "staticwebassets\\images\\f2be4bcf-3934-4105-8354-dadbd1f326d6_6.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f2fb129d-f8b3-47e1-b39d-e4dfbf8caafa_kidfashion.png",
+      "PackagePath": "staticwebassets\\images\\f2fb129d-f8b3-47e1-b39d-e4dfbf8caafa_kidfashion.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f4667c78-6a27-47e6-be59-075b72e47fac_p9.png",
+      "PackagePath": "staticwebassets\\images\\f4667c78-6a27-47e6-be59-075b72e47fac_p9.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f4818fce-0b52-47dc-8cfd-5010bb39f058_p27.png",
+      "PackagePath": "staticwebassets\\images\\f4818fce-0b52-47dc-8cfd-5010bb39f058_p27.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f4d99f52-9e74-42d7-940f-3ad917ebd8de_mesk.jpg",
+      "PackagePath": "staticwebassets\\images\\f4d99f52-9e74-42d7-940f-3ad917ebd8de_mesk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f649179e-fe5a-4317-9382-c639e06d4b38_p33.png",
+      "PackagePath": "staticwebassets\\images\\f649179e-fe5a-4317-9382-c639e06d4b38_p33.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f70ab41e-07e9-469b-a678-2d5cf804fcba_category5.png",
+      "PackagePath": "staticwebassets\\images\\f70ab41e-07e9-469b-a678-2d5cf804fcba_category5.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\f9b7eb8a-8304-45ab-9637-24983c015b0c_p52.png",
+      "PackagePath": "staticwebassets\\images\\f9b7eb8a-8304-45ab-9637-24983c015b0c_p52.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\fb6a6791-08df-4981-aaa2-14ad677b9951_p51.png",
+      "PackagePath": "staticwebassets\\images\\fb6a6791-08df-4981-aaa2-14ad677b9951_p51.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\fbb66bcf-fed6-4f80-acce-ef92e05dc858_p50.png",
+      "PackagePath": "staticwebassets\\images\\fbb66bcf-fed6-4f80-acce-ef92e05dc858_p50.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\ff5dedbe-38da-44b3-b2d7-b98336d41ba6_h4.png",
+      "PackagePath": "staticwebassets\\images\\ff5dedbe-38da-44b3-b2d7-b98336d41ba6_h4.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-01.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-02.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-03.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-04.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-05.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-06.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-07.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-08.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\gallery-09.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-close.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-close.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-close2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-close2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-email.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-email.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-heart-01.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-heart-01.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-heart-02.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-heart-02.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-next.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-next.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-pay-01.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-pay-01.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-pay-02.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-pay-02.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-pay-03.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-pay-03.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-pay-04.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-pay-04.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-pay-05.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-pay-05.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\icon-prev.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-prev.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\logo-01.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo-01.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\logo-02.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo-02.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\logo-skin2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logo-skin2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\logoskin3.png",
+      "PackagePath": "staticwebassets\\images\\icons\\logoskin3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\mylogo0.png",
+      "PackagePath": "staticwebassets\\images\\icons\\mylogo0.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\pin.png",
+      "PackagePath": "staticwebassets\\images\\icons\\pin.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\icons\\skinlogo.png",
+      "PackagePath": "staticwebassets\\images\\icons\\skinlogo.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\item-cart-01.jpg",
+      "PackagePath": "staticwebassets\\images\\item-cart-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\item-cart-02.jpg",
+      "PackagePath": "staticwebassets\\images\\item-cart-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\item-cart-03.jpg",
+      "PackagePath": "staticwebassets\\images\\item-cart-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\item-cart-04.jpg",
+      "PackagePath": "staticwebassets\\images\\item-cart-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\item-cart-05.jpg",
+      "PackagePath": "staticwebassets\\images\\item-cart-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\login.png",
+      "PackagePath": "staticwebassets\\images\\login.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\pic.jpg",
+      "PackagePath": "staticwebassets\\images\\pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-01.jpg",
+      "PackagePath": "staticwebassets\\images\\product-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-02.jpg",
+      "PackagePath": "staticwebassets\\images\\product-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-03.jpg",
+      "PackagePath": "staticwebassets\\images\\product-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-04.jpg",
+      "PackagePath": "staticwebassets\\images\\product-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-05.jpg",
+      "PackagePath": "staticwebassets\\images\\product-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-06.jpg",
+      "PackagePath": "staticwebassets\\images\\product-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-07.jpg",
+      "PackagePath": "staticwebassets\\images\\product-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-08.jpg",
+      "PackagePath": "staticwebassets\\images\\product-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-09.jpg",
+      "PackagePath": "staticwebassets\\images\\product-09.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-10.jpg",
+      "PackagePath": "staticwebassets\\images\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-11.jpg",
+      "PackagePath": "staticwebassets\\images\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-12.jpg",
+      "PackagePath": "staticwebassets\\images\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-13.jpg",
+      "PackagePath": "staticwebassets\\images\\product-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-14.jpg",
+      "PackagePath": "staticwebassets\\images\\product-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-15.jpg",
+      "PackagePath": "staticwebassets\\images\\product-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-16.jpg",
+      "PackagePath": "staticwebassets\\images\\product-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-detail-01.jpg",
+      "PackagePath": "staticwebassets\\images\\product-detail-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-detail-02.jpg",
+      "PackagePath": "staticwebassets\\images\\product-detail-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-detail-03.jpg",
+      "PackagePath": "staticwebassets\\images\\product-detail-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-min-01.jpg",
+      "PackagePath": "staticwebassets\\images\\product-min-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-min-02.jpg",
+      "PackagePath": "staticwebassets\\images\\product-min-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\product-min-03.jpg",
+      "PackagePath": "staticwebassets\\images\\product-min-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\skin2.png",
+      "PackagePath": "staticwebassets\\images\\skin2.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\skincare.png",
+      "PackagePath": "staticwebassets\\images\\skincare.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\slide-01.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\slide-02.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\slide-03.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\slide-04.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\slide-05.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\slide-06.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\slide-07.jpg",
+      "PackagePath": "staticwebassets\\images\\slide-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\slide3.png",
+      "PackagePath": "staticwebassets\\images\\slide3.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\test.png",
+      "PackagePath": "staticwebassets\\images\\test.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\thumb-01.jpg",
+      "PackagePath": "staticwebassets\\images\\thumb-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\thumb-02.jpg",
+      "PackagePath": "staticwebassets\\images\\thumb-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\images\\thumb-03.jpg",
+      "PackagePath": "staticwebassets\\images\\thumb-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\js\\map-custom.js",
+      "PackagePath": "staticwebassets\\js\\map-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\js\\slick-custom.js",
+      "PackagePath": "staticwebassets\\js\\slick-custom.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\MagnificPopup\\jquery.magnific-popup.js",
+      "PackagePath": "staticwebassets\\vendor\\MagnificPopup\\jquery.magnific-popup.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\MagnificPopup\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\vendor\\MagnificPopup\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\MagnificPopup\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\vendor\\MagnificPopup\\magnific-popup.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\vendor\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\animsition\\css\\animsition.css",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\css\\animsition.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\animsition\\css\\animsition.min.css",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\css\\animsition.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\animsition\\js\\animsition.js",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\js\\animsition.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\animsition\\js\\animsition.min.js",
+      "PackagePath": "staticwebassets\\vendor\\animsition\\js\\animsition.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\js\\popper.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\bootstrap\\js\\tooltip.js",
+      "PackagePath": "staticwebassets\\vendor\\bootstrap\\js\\tooltip.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\countdowntime\\countdowntime.js",
+      "PackagePath": "staticwebassets\\vendor\\countdowntime\\countdowntime.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\css-hamburgers\\hamburgers.css",
+      "PackagePath": "staticwebassets\\vendor\\css-hamburgers\\hamburgers.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\css-hamburgers\\hamburgers.min.css",
+      "PackagePath": "staticwebassets\\vendor\\css-hamburgers\\hamburgers.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\daterangepicker\\daterangepicker.css",
+      "PackagePath": "staticwebassets\\vendor\\daterangepicker\\daterangepicker.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\daterangepicker\\daterangepicker.js",
+      "PackagePath": "staticwebassets\\vendor\\daterangepicker\\daterangepicker.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\daterangepicker\\moment.js",
+      "PackagePath": "staticwebassets\\vendor\\daterangepicker\\moment.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\daterangepicker\\moment.min.js",
+      "PackagePath": "staticwebassets\\vendor\\daterangepicker\\moment.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\vendor\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jquery\\jquery-3.2.1.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jquery\\jquery-3.2.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\external\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\external\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\images\\ui-icons_444444_256x240.png",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\images\\ui-icons_444444_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\images\\ui-icons_555555_256x240.png",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\images\\ui-icons_555555_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\images\\ui-icons_777620_256x240.png",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\images\\ui-icons_777620_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\images\\ui-icons_777777_256x240.png",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\images\\ui-icons_777777_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\images\\ui-icons_cc0000_256x240.png",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\images\\ui-icons_cc0000_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\images\\ui-icons_ffffff_256x240.png",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\images\\ui-icons_ffffff_256x240.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\index.html",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\jquery-ui.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\jquery-ui.structure.css",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\jquery-ui.structure.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\jquery-ui.structure.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\jquery-ui.structure.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\jquery-ui.theme.css",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\jquery-ui.theme.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\jqueryui\\jquery-ui.theme.min.css",
+      "PackagePath": "staticwebassets\\vendor\\jqueryui\\jquery-ui.theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\css\\lightbox.css",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\css\\lightbox.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\css\\lightbox.min.css",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\css\\lightbox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\images\\close.png",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\images\\close.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\images\\loading.gif",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\images\\loading.gif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\images\\next.png",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\images\\next.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\images\\prev.png",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\images\\prev.png"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\js\\lightbox-plus-jquery.js",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\js\\lightbox-plus-jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.js",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.map",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\js\\lightbox-plus-jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\js\\lightbox.js",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\js\\lightbox.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\js\\lightbox.min.js",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\js\\lightbox.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\lightbox2\\js\\lightbox.min.map",
+      "PackagePath": "staticwebassets\\vendor\\lightbox2\\js\\lightbox.min.map"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\parallax100\\parallax100.js",
+      "PackagePath": "staticwebassets\\vendor\\parallax100\\parallax100.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\vendor\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js",
+      "PackagePath": "staticwebassets\\vendor\\perfect-scrollbar\\perfect-scrollbar.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\select2\\select2.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\select2\\select2.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\select2\\select2.min.css",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\select2\\select2.min.js",
+      "PackagePath": "staticwebassets\\vendor\\select2\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\vendor\\slick\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\config.rb",
+      "PackagePath": "staticwebassets\\vendor\\slick\\config.rb"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\fonts\\slick.eot",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.eot"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\fonts\\slick.svg",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.svg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\fonts\\slick.ttf",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.ttf"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\fonts\\slick.woff",
+      "PackagePath": "staticwebassets\\vendor\\slick\\fonts\\slick.woff"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\slick-theme.css",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\slick-theme.less",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\slick-theme.scss",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick-theme.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\slick.css",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.css"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\slick.js",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\slick.less",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.less"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\slick.min.js",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.min.js"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\slick\\slick.scss",
+      "PackagePath": "staticwebassets\\vendor\\slick\\slick.scss"
+    },
+    {
+      "Id": "C:\\Users\\HP\\source\\repos\\She&He_Store\\wwwroot\\vendor\\sweetalert\\sweetalert.min.js",
+      "PackagePath": "staticwebassets\\vendor\\sweetalert\\sweetalert.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.She&He_Store.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.She&He_Store.props",
+      "PackagePath": "build\\She&He_Store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.She&He_Store.props",
+      "PackagePath": "buildMultiTargeting\\She&He_Store.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.She&He_Store.props",
+      "PackagePath": "buildTransitive\\She&He_Store.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

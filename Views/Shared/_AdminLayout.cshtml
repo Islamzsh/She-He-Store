@@ -1,0 +1,324 @@
+﻿@inject ModelContext _context;
+<!DOCTYPE html>
+
+<html>
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>She&amp;He Store -  Admin Panel</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+@*    <link rel="stylesheet" href="~/DashboardAssets/assets/vendor/fonts/materialdesignicons.css" />
+*@
+    <!-- site icon -->
+    <link rel="icon" href="~/AdminDashboardAssets/images/fevicon.png" type="image/png" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="~/AdminDashboardAssets/css/bootstrap.min.css" />
+    <!-- site css -->
+    <link rel="stylesheet" href="~/AdminDashboardAssets/style.css" />
+    <!-- responsive css -->
+    <link rel="stylesheet" href="~/AdminDashboardAssets/css/responsive.css" />
+    <!-- color css -->
+    <link rel="stylesheet" href="~/AdminDashboardAssets/css/color_1.css" />
+    <!-- select bootstrap -->
+    <link rel="stylesheet" href="~/AdminDashboardAssets/css/bootstrap-select.css" />
+    <!-- scrollbar css -->
+    <link rel="stylesheet" href="~/AdminDashboardAssets/css/perfect-scrollbar.css" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="~/AdminDashboardAssets/css/custom.css" />
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.8.0/dist/js/bootstrap.min.js"></script>
+
+    <![endif]-->
+
+    <style>
+        .sidebar_toggle{
+          background-color  : #0000 !important;
+        }
+
+
+
+        .icon_info ul.user_profile_dd li div a {
+            background-color: #f7e5d1 !important;
+            color:black;
+        }
+        .user_profile_dd{
+            background-color: #f7e5d1 !important;
+        }
+
+        .icon_info ul.user_profile_dd > li {
+            background-color: #f7e5d1 !important;
+        }
+        .badge {
+            background-color: #f7e5d1 !important;
+        }
+
+
+        #sidebar {
+            background-color: #faf5ef !important;
+        }
+
+    
+
+        .sidebar_user_info {
+            background-color: #faf5ef !important;
+        }
+
+        .topbar .navbar {
+            background-color: #faf5ef !important;
+        }
+
+        .colored, .coloredtext {
+
+        
+            color: black
+  
+        }
+
+        #sidebar ul li a {
+            color: black
+        }
+
+        #sidebar ul.components ul {
+            background-color: #f7e5d1
+        
+        }
+
+            #sidebar ul.components ul li a {color:black}
+        </style>
+</head>
+@{
+
+    var x =  Context.Session.GetInt32("AdminId");
+    if (x != null)
+
+    {
+        var user = _context.Users.Where(t =>t.Userid == x).SingleOrDefault();
+        ViewBag.Img = user.ImagePath;
+        ViewBag.Name = user.FirstName + " " + user.LastName;
+
+    }
+}
+
+
+
+
+
+
+<body class="dashboard dashboard_1">
+    <div class="full_container">
+        <div class="inner_container">
+            <!-- Sidebar  -->
+            <nav id="sidebar">
+                <div class="sidebar_blog_1">
+                    <div class="sidebar-header"  >
+                        @*<div class="logo_section">
+                            <a href="index.html"><img class="logo_icon img-responsive" src="~/AdminDashboardAssets/images/logo/mylogo0.png"   width="60px" height="100px" alt="#" /></a>
+                        </div>*@
+                    </div>
+                    <div class="sidebar_user_info">
+                        <div class="icon_setting"></div>
+                        <div class="user_profle_side">
+                            <div class="user_img" style="width: 170px; height:100px" >
+
+                                <img class="img-responsive" src="~/AdminDashboardAssets/images/logo/mylogo0.png" alt="#" style="width: 170px; height: 166px;" />
+                            </div>
+@*                                <img class="img-responsive" src="@Url.Content("~/images/" + ViewBag.Img)" alt="#" /></div>
+*@                           @* <div class="user_info">
+                                <h6 style="color:black">@ViewBag.Name</h6>
+                                <p><span class="online_animation"></span> Online</p>
+                            </div>*@
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar_blog_2" style="margin-top:25px">
+                   
+                    <ul class="list-unstyled components">
+                        <li class="active">
+                          
+                                    <a asp-action="Dashboard" asp-controller="Admin">
+                                <i class="fa  fa-house colored"></i>
+                                <span class="coloredtext">Home</span>
+                            </a>
+                               
+                        </li>
+
+
+                        @* Categories *@
+                        <li><a asp-action="Index" asp-controller="Categories"><i class="fa  fa-cubes colored"></i> <span class="coloredtext">Categories</span></a></li>
+
+
+
+                        <li><a asp-action="Index" asp-controller="Products"><i class="fa fa-box colored"></i> <span class="coloredtext">Products</span></a></li>
+
+
+                
+
+                        @* Orders*@
+                     
+
+                        
+                        <li>
+                            <a asp-action="Index" asp-controller="Orders">
+                                <i class="fa fa-shopping-cart colored"></i>
+                                <span class="coloredtext">Orders</span>
+                            </a>
+                        </li>
+
+                        @* Users*@
+
+                        <li>
+                            <a asp-action="Index" asp-controller="UserLogins">
+                                <i class="fa  fa-users colored"></i>
+                                <span class="coloredtext">Users</span>
+                            </a>
+                        </li>
+
+
+                   
+
+
+                        @* Copouns*@
+
+
+                        <li>
+                            <a asp-action="Index" asp-controller="Coupons">
+                                <i class="fa  fa-ticket colored"></i>
+                                <span class="coloredtext" >Coupons</span>
+                            </a>
+                        </li>
+                       
+
+                        @*Reviews*@
+
+                        <li>
+                            <a asp-controller="Testimonials" asp-action="Index">
+                                <i class="fa fa-comments colored"></i>
+                                <span class="coloredtext" >Reviews</span>
+                            </a>
+                        </li>
+                      
+
+                        <li>
+                            <a asp-controller="Admin" asp-action="Contacts">
+                                <i class="fa fa-paper-plane colored"></i>
+                                <span class="coloredtext">User Contacts</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a asp-action="Report" asp-controller="Admin">
+                                <i class="fa fa-file colored"></i>
+                                <span class="coloredtext">Documentation</span>
+                            </a>
+                        </li>
+                        
+                       @* <li><a asp-action="Profile" asp-controller="Admin"><i class="fa fa-regular fa-circle-user colored"></i> <span class="coloredtext">Profile</span></a></li>
+                        <li><a asp-action="Logout" asp-controller="LoginAndRegister"> <i class="fa fa-sign-out colored"> </i> <span class="coloredtext">Logout</span></a></li>
+*@
+                    </ul>
+                </div>
+            </nav>
+            <!-- end sidebar -->
+            <!-- right content -->
+            <div id="content">
+                <!-- topbar -->
+                <div class="topbar">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="full">
+                            <button type="button" id="sidebarCollapse" class="sidebar_toggle" style="background-color:#f7e5d1 !important;"><i class="fa fa-bars"></i></button>
+                            @*<div class="logo_section">
+                                <a href="index.html"><img class="img-responsive" src="~/AdminDashboardAssets/images/logo/mylogo0.png" style="width:80px;" alt="#" /></a>
+                            </div>*@
+                            <div class="right_topbar">
+                                <div class="icon_info">
+                                  @* <ul>
+                                        <li><a href="#"><i class="fa fa-bell-o"></i><span class="badge">2</span></a></li>
+                                       <li><a href="#"><i class="fa fa-question-circle"></i></a></li>
+                                      <li><a href="#"><i class="fa fa-envelope-o"></i><span class="badge">3</span></a></li>
+                                   </ul>*@
+                                    <ul class="user_profile_dd">
+                                        <li>
+                                           <a class="dropdown-toggle" data-toggle="dropdown"><img class="img-responsive rounded-circle" src="@Url.Content("~/images/" + ViewBag.Img)" alt="#" /><span class="name_user" style="color:black">@ViewBag.Name</span>
+
+@*                                                <p><span class="online_animation">Online</span> </p>
+*@                                           </a>
+                                            
+                                            <div class="dropdown-menu">
+                                                <a class="dropdown-item" asp-action="Profile" asp-controller="Admin">My Profile</a>
+                                                <a class="dropdown-item" asp-action="Logout" asp-controller="LoginAndRegister"><span>Log Out</span> <i class="fa fa-sign-out"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <!-- end topbar -->
+                <!-- dashboard inner -->
+                <div class="midde_cont">
+                    <div class="container-fluid">
+                        <div class="row column_title">
+                            <div class="col-md-12">
+                                <br />
+                                <div>
+                                    @RenderBody()
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- end dashboard inner -->
+            </div>
+        </div>
+    </div>
+
+
+    <!-- footer -->
+    <div class="container-fluid">
+        <div class="footer">
+            <p>
+                Copyright © 2023 She&amp;He Store. All rights reserved.<br><br>
+            </p>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="~/AdminDashboardAssets/js/jquery.min.js"></script>
+    <script src="~/AdminDashboardAssets/js/popper.min.js"></script>
+    <script src="~/AdminDashboardAssets/js/bootstrap.min.js"></script>
+    <!-- wow animation -->
+    <script src="~/AdminDashboardAssets/js/animate.js"></script>
+    <!-- select country -->
+    <script src="~/AdminDashboardAssets/js/bootstrap-select.js"></script>
+    <!-- owl carousel -->
+    <script src="~/AdminDashboardAssets/js/owl.carousel.js"></script>
+    <!-- chart js -->
+    <script src="~/AdminDashboardAssets/js/Chart.min.js"></script>
+    <script src="~/AdminDashboardAssets/js/Chart.bundle.min.js"></script>
+    <script src="~/AdminDashboardAssets/js/utils.js"></script>
+    <script src="~/AdminDashboardAssets/js/analyser.js"></script>
+    <!-- nice scrollbar -->
+    <script src="~/AdminDashboardAssets/js/perfect-scrollbar.min.js"></script>
+    <script>
+        var ps = new PerfectScrollbar('#sidebar');
+    </script>
+    <!-- custom js -->
+    <script src="~/AdminDashboardAssets/js/custom.js"></script>
+    <script src="~/AdminDashboardAssets/js/chart_custom_style1.js"></script>
+</body>
+</html>
+

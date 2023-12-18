@@ -1,0 +1,63 @@
+﻿@model IEnumerable<She_He_Store.Models.Role>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+<head>
+    <style>
+        .product-image {
+            max-width: 150px;
+            height: 150px;
+        }
+
+        table thead tr th {
+            font-weight: 700;
+            color: black;
+        }
+
+        tr td {
+            color: black;
+        }
+    </style>
+</head>
+<h1 style="margin-bottom:15px">Roles </h1>
+
+<p>
+    <a asp-action="Create" class="btn" style="background-color:black; color :white">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Roleid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rolename)
+            </th>
+            
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Roleid)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rolename)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Roleid">
+                        <i class="fa fa-edit"></i>
+
+                </a> |
+                <a asp-action="Details" asp-route-id="@item.Roleid">
+                        <i class="fa fa-info-circle"></i>
+                </a> |
+                    <a asp-action="Delete" asp-route-id="@item.Roleid"> <i class="fa fa-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

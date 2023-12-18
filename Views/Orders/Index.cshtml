@@ -1,0 +1,111 @@
+﻿@model IEnumerable<She_He_Store.Models.Order>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+
+</head>
+
+    <style>
+        .product-image {
+            max-width: 150px;
+            height: 150px;
+        }
+
+        table thead tr th {
+            font-weight: 700;
+            color: black;
+        }
+
+        tr td {
+            color: black;
+        }
+    </style>
+<h1 style="margin-bottom:15px">Orders List</h1>
+
+@*<p>
+    <a asp-action="Create" class="btn" style="background-color:black; color :white">Create New</a>
+</p>*@
+
+<div class="table-responsive">
+<table class="table order">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Orderid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Orderdate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Totalamount)
+            </th>
+           
+            <th>
+                @Html.DisplayNameFor(model => model.IdNavigation.Shippingcity)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdNavigation.Shippingpostalcode)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Orderstatus)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           <td>
+              @Html.DisplayFor(modelItem => item.Orderid)
+           </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Orderdate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Totalamount)
+            </td>
+            
+            <td>
+                @Html.DisplayFor(modelItem => item.IdNavigation.Shippingcity)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdNavigation.Shippingpostalcode)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.FirstName)
+            </td>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Orderstatus)
+                </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Orderid">
+
+                        <i class="fa fa-edit"></i>
+                    </a> |
+                    <a asp-action="Details" asp-route-id="@item.Orderid">  <i class="fa fa-info-circle"></i></a> 
+@*                    <a asp-action="Delete" asp-route-id="@item.Orderid"> <i class="fa fa-trash"></i></a>
+*@            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.order').DataTable();
+    });
+</script>

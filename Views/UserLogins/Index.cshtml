@@ -1,0 +1,86 @@
+﻿@model IEnumerable<She_He_Store.Models.UserLogin>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+<head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <style>
+        table thead tr th {
+            font-weight: 700;
+            color: black;
+        }
+
+        tr td {
+            color: black;
+        }</style>
+
+</head>
+
+
+<table class="table ">
+    <thead >
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Username)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Password)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.User)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Roleid)
+            </th>
+            <th>
+                User Role
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Username)
+            </td>
+                <td>
+                    @Html.Raw(string.Empty.PadLeft(item.Password.Length, '*'))
+                </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Userid)
+            </td>
+            <td>
+                    @Html.DisplayFor(modelItem => item.Role.Roleid)
+            </td>
+                <td>
+                    @if (item.Role.Roleid == 1)
+                    {
+                        @: <i class="fas fa-user-shield" style="color:black"></i> Admin
+                    }
+                    else if (item.Role.Roleid == 2)
+                    {
+                        @: <i class="fas fa-user" style="color:#5b5b5b"></i> Customer
+                    }
+                </td>
+           @* <td>
+                    <a asp-action="Edit" asp-route-id="@item.Userloginid">
+                        <i class="fa fa-edit"></i>
+                    </a> |
+                    <a asp-action="Details" asp-route-id="@item.Userloginid"><i class="fa fa-info-circle"></i></a> |
+                    <a asp-action="Delete" asp-route-id="@item.Userloginid"> <i class="fa fa-trash"></i></a>
+            </td>*@
+        </tr>
+}
+    </tbody>
+</table>
+@*
+<p>
+    <a asp-action="Create" class="btn" style="background-color: black">Create New Product</a>
+</p>*@

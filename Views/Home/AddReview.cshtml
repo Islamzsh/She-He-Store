@@ -1,0 +1,172 @@
+﻿@model IEnumerable<Testimonial>
+@{
+    ViewData["Title"] = "AddReview";
+    Layout = "~/Views/Shared/_HomeLayout.cshtml";
+}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<style>
+    #thanksSuccessMessage {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 999;
+    }
+
+    .success-card {
+        text-align: center;
+        width: 480px;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 5px;
+    }
+
+    .circle-icon {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px auto;
+        border: 2px solid #28a745;
+    }
+
+    .border-success {
+        border: 2px solid #28a745;
+    }
+
+    .btn-light {
+        background-color: #717fe0;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 16px;
+        margin-top: 10px;
+    }
+
+    .thin-check {
+        transform: scale(0.8);
+    }
+</style>
+
+<div class="Container" style="margin-top:100px;">
+    <div class="container">
+        <div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg">
+            <a asp-action="Index" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+                Home
+                <i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
+            </a>
+
+            <span class="stext-109 cl4">
+                <a asp-action="AddReview" asp-controller="Home" class="stext-109 cl8 hov-cl1 trans-04">
+                    Add Review
+                </a>
+            </span>
+        </div>
+    </div>
+</div>
+
+
+<!-- Content page -->
+<section class="bg0 p-t-75 p-b-120">
+    <div class="container">
+      
+        <div class="row">
+            <div class="order-md-2 col-md-7 col-lg-8 p-b-30">
+                <div class="p-t-7 p-l-85 p-l-15-lg p-l-0-md">
+                    <h3 class="mtext-111 cl2 p-b-16">
+                        Add Review
+                    </h3>
+
+                    <form id="review-form" asp-action="AddReview" method="post">
+                        <h3 class="stext-101">
+                            Your feedback matters! Share your thoughts with us and help others understand our services better. We appreciate your valuable input in shaping our ongoing improvements.
+                        </h3>
+                        <div class="form-group">
+                            <label for="Testimonialtext" class="stext-101"></label>
+                            <textarea class="form-control" id="Testimonialtext" name="Testimonialtext" placeholder="Write here..." rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <div class="flex-c-m flex-w w-full p-t-45">
+                                <button type="submit" class="flex-c-m stext-101 cl5 size-102 bg2 bor1 hov-btn1 p-lr-15 trans-04 button-style stext-101">
+                                    Submit Review
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+
+                   
+                </div>
+            </div>
+
+            <div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
+                <div class="how-bor2">
+                    <div class="hov-img0">
+                        <img src="~/images/test.png" alt="IMG">
+                    </div>
+                </div>
+            </div>
+
+            <div class="card text-dark bg-light" id="thanksSuccessMessage" style="display: none;">
+                <div class="success-card">
+                    <div class="circle-icon border-success">
+                        <i class="fa fa-check fa-4x text-success thin-check"></i>
+                    </div>
+                    <h5 class="card-title mtext-108 cl2 p-b-7">Thank You! </h5>
+                    <div class="d-flex justify-content-end">
+                        <a id="okButton" class="btn btn-light btn-sm bigger-button" style="background-color: #717fe0; color: #fff;">OK</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+<script>
+    $(document).ready(function () {
+        $("#review-form").submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: "POST",
+                url: '@Url.Action("AddReview", "Home")',
+                data: $(this).serialize(),
+                success: function (data) {
+                    if (data.message) {
+                        //// Hide the form
+                        //$("#review-form").hide();
+                        $("#Testimonialtext").val('');
+                        // Show the success message card
+                        $("#thanksSuccessMessage").show();
+                    } else {
+                        alert("Error: " + data.message);
+                    }
+                },
+                error: function () {
+                    alert("An error occurred during the request.");
+                }
+            });
+        });
+
+        // Add a click event handler for the "OK" button
+        $("#okButton").on("click", function (e) {
+            e.preventDefault();
+            // Hide the success message card
+            $("#thanksSuccessMessage").hide();
+        });
+    });
+</script>
