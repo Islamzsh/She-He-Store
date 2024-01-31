@@ -43,7 +43,7 @@ In a world where time and effort matter, She & He Store emerges as the solution 
 - Efficient form of validation and real-time feedback.
 - Automated email notifications for order status updates.
 
-## User Roles 👤
+## User Roles 🧑‍💼
 
 1. **Guest User:**
    - Can browse the website and view products.
